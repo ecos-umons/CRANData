@@ -1,8 +1,8 @@
 #!/bin/bash
 
-CWD=./check
+CWD=/data/cran/checks
 
-DIR=`date +"%y-%m-%d-%H-%M"`
+DIR=`TZ=America/Montreal date +"%y-%m-%d-%H-%M"`
 mkdir $CWD/$DIR
 
-rsync -rtlzv --delete --exclude="*.html" cran.r-project.org::CRAN/web/checks/ $CWD/$DIR
+rsync -rtlzv --delete --include "check_summary.html" --exclude="*.html" cran.r-project.org::CRAN/web/checks/ $CWD/$DIR
