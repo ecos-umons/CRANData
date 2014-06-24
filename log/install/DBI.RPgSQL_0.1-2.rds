@@ -1,0 +1,2 @@
+ERROR: dependency ‘RPgSQL’ is not available for package ‘DBI.RPgSQL’
+* removing ‘/home/vagrant/lib/current/DBI.RPgSQL’

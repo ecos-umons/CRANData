@@ -1,0 +1,2 @@
+ERROR: dependencies ‘Deducer’, ‘rJava’ are not available for package ‘DeducerExtras’
+* removing ‘/home/vagrant/lib/current/DeducerExtras’

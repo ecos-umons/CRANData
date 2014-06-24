@@ -1,0 +1,2 @@
+ERROR: dependency ‘rJava’ is not available for package ‘rDNA’
+* removing ‘/home/vagrant/lib/current/rDNA’

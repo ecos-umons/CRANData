@@ -1,0 +1,17 @@
+* installing *source* package ‘RiDMC’ ...
+** package ‘RiDMC’ successfully unpacked and MD5 sums checked
+checking for gsl-config... /usr/bin/gsl-config
+checking if GSL version >= 1.12... checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+yes
+checking for library containing luaL_newstate... no
+configure: error: Cannot find lua library
+ERROR: configuration failed for package ‘RiDMC’
+* removing ‘/home/vagrant/lib/current/RiDMC’

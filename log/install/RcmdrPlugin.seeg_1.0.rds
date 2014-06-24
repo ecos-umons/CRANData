@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rcmdr’ is not available for package ‘RcmdrPlugin.seeg’
+* removing ‘/home/vagrant/lib/current/RcmdrPlugin.seeg’

@@ -1,0 +1,2 @@
+ERROR: dependency ‘xlsx’ is not available for package ‘OpenRepGrid’
+* removing ‘/home/vagrant/lib/current/OpenRepGrid’

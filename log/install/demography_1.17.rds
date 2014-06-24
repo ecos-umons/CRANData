@@ -1,0 +1,2 @@
+ERROR: dependency ‘strucchange’ is not available for package ‘demography’
+* removing ‘/home/vagrant/lib/current/demography’

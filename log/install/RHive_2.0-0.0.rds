@@ -1,0 +1,2 @@
+ERROR: dependency ‘rJava’ is not available for package ‘RHive’
+* removing ‘/home/vagrant/lib/current/RHive’

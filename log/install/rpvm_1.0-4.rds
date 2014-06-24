@@ -1,0 +1,21 @@
+* installing *source* package ‘rpvm’ ...
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+Check if PVM_ROOT is defined... 
+no
+I'll try to build rpvm but you need set PVM_ROOT
+before use pvm. See pvm_intro(1PVM)
+
+Try to guess if pvm is installed somewhere ...
+ Cannot find pvm.
+ If pvm is installed, set PVM_ROOT to where pvm is.
+ Otherwise, please install pvm first.
+ERROR: configuration failed for package ‘rpvm’
+* removing ‘/home/vagrant/lib/current/rpvm’

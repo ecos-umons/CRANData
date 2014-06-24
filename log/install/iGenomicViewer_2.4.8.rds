@@ -1,0 +1,2 @@
+ERROR: dependency ‘sendplot’ is not available for package ‘iGenomicViewer’
+* removing ‘/home/vagrant/lib/current/iGenomicViewer’

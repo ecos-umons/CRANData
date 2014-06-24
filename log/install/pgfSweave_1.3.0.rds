@@ -1,0 +1,2 @@
+ERROR: dependency ‘tikzDevice’ is not available for package ‘pgfSweave’
+* removing ‘/home/vagrant/lib/current/pgfSweave’

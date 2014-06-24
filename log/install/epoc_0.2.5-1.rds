@@ -1,0 +1,2 @@
+ERROR: dependencies ‘graph’, ‘Rgraphviz’ are not available for package ‘epoc’
+* removing ‘/home/vagrant/lib/current/epoc’

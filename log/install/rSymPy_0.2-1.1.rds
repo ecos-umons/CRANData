@@ -1,0 +1,2 @@
+ERROR: dependency ‘rJython’ is not available for package ‘rSymPy’
+* removing ‘/home/vagrant/lib/current/rSymPy’

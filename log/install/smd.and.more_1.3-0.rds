@@ -1,0 +1,3 @@
+* installing *source* package ‘smd.and.more’ ...
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/smd.and.more’

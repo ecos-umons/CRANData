@@ -1,0 +1,2 @@
+ERROR: dependency ‘mitools’ is not available for package ‘miceadds’
+* removing ‘/home/vagrant/lib/current/miceadds’

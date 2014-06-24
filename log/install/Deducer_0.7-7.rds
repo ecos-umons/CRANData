@@ -1,0 +1,2 @@
+ERROR: dependencies ‘JGR’, ‘rJava’ are not available for package ‘Deducer’
+* removing ‘/home/vagrant/lib/current/Deducer’

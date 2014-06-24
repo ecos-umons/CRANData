@@ -1,0 +1,4 @@
+WARNING: omitting pointless dependence on 'R' without a version requirement
+* installing *source* package ‘tapiR’ ...
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/tapiR’

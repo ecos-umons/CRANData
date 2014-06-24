@@ -1,0 +1,6 @@
+* installing *source* package ‘mvgraph’ ...
+checking for pkg-config... OK
+configure: creating ./config.status
+config.status: creating src/Makevars
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/mvgraph’

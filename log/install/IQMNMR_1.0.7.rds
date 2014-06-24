@@ -1,0 +1,2 @@
+ERROR: dependencies ‘neldermead’, ‘papply’ are not available for package ‘IQMNMR’
+* removing ‘/home/vagrant/lib/current/IQMNMR’

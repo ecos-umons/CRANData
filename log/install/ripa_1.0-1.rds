@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rimage’, ‘tkrplot’ are not available for package ‘ripa’
+* removing ‘/home/vagrant/lib/current/ripa’

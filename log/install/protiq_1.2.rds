@@ -1,0 +1,2 @@
+ERROR: dependencies ‘graph’, ‘RBGL’ are not available for package ‘protiq’
+* removing ‘/home/vagrant/lib/current/protiq’

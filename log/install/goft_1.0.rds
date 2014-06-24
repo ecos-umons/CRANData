@@ -1,0 +1,2 @@
+ERROR: dependency ‘gPdtest’ is not available for package ‘goft’
+* removing ‘/home/vagrant/lib/current/goft’

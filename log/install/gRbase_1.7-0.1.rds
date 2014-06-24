@@ -1,0 +1,2 @@
+ERROR: dependencies ‘RBGL’, ‘graph’ are not available for package ‘gRbase’
+* removing ‘/home/vagrant/lib/current/gRbase’

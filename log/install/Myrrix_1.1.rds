@@ -1,0 +1,2 @@
+ERROR: dependencies ‘Myrrixjars’, ‘rJava’ are not available for package ‘Myrrix’
+* removing ‘/home/vagrant/lib/current/Myrrix’

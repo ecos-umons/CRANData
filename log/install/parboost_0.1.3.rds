@@ -1,0 +1,2 @@
+ERROR: dependency ‘party’ is not available for package ‘parboost’
+* removing ‘/home/vagrant/lib/current/parboost’

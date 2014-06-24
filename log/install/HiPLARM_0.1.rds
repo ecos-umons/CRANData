@@ -1,0 +1,5 @@
+* installing *source* package ‘HiPLARM’ ...
+** package ‘HiPLARM’ successfully unpacked and MD5 sums checked
+configure: error: The user should link a version of lapack preferably an optimised version such as ATLAS, OpenBLAS, Intel MKL or AMD ACML. Please see the Install guide for more details.
+ERROR: configuration failed for package ‘HiPLARM’
+* removing ‘/home/vagrant/lib/current/HiPLARM’

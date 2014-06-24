@@ -1,0 +1,2 @@
+ERROR: dependency ‘RBGL’ is not available for package ‘SubpathwayMiner’
+* removing ‘/home/vagrant/lib/current/SubpathwayMiner’

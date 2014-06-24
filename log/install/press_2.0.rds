@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rcmdr’ is not available for package ‘press’
+* removing ‘/home/vagrant/lib/current/press’

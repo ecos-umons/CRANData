@@ -1,0 +1,11 @@
+* installing *source* package ‘amer’ ...
+** package ‘amer’ successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+Error in reconcilePropertiesAndPrototype(name, slots, prototype, superClasses,  : 
+  no definition was found for superclass “mer” in the specification of class “amer”
+Error : unable to load R code in package ‘amer’
+ERROR: lazy loading failed for package ‘amer’
+* removing ‘/home/vagrant/lib/current/amer’

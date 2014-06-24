@@ -1,0 +1,5 @@
+* installing *source* package ‘Rlsf’ ...
+Cannot find the lsf.conf file in /etc
+Please set the LSF_ENVDIR variable to the LSF 'conf' directory
+ERROR: configuration failed for package ‘Rlsf’
+* removing ‘/home/vagrant/lib/current/Rlsf’

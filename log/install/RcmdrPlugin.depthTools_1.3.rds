@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rcmdr’ is not available for package ‘RcmdrPlugin.depthTools’
+* removing ‘/home/vagrant/lib/current/RcmdrPlugin.depthTools’

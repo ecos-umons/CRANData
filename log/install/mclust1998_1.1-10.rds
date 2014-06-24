@@ -1,0 +1,3 @@
+* installing *source* package ‘mclust1998’ ...
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/mclust1998’

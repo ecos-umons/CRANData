@@ -1,0 +1,8 @@
+* installing *source* package ‘rorutadis’ ...
+** package ‘rorutadis’ successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+Error : package ‘Rglpk’ 0.4-1 was found, but >= 0.5.1 is required by ‘rorutadis’
+ERROR: lazy loading failed for package ‘rorutadis’
+* removing ‘/home/vagrant/lib/current/rorutadis’

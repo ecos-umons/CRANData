@@ -1,0 +1,132 @@
+* installing *source* package ‘RGrace’ ...
+** R
+** inst
+** preparing package for lazy loading
+Xlib:  extension "RANDR" missing on display ":99".
+** help
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:29: unknown macro '\begin'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:30: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:33: unknown macro '\begin'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:35: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:37: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:39: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:41: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:44: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:48: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:50: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:72: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:74: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:75: unknown macro '\end'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:77: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:80: unknown macro '\begin'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:81: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:83: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:85: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:87: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:89: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:91: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:93: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:95: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:97: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:99: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:105: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:109: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:134: unknown macro '\end'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:136: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:140: unknown macro '\begin'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:143: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:145: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:147: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:149: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:151: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:153: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:155: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:157: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:158: unknown macro '\end'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:159: unknown macro '\end'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:162: unknown macro '\begin'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:164: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:166: unknown macro '\begin'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:168: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:179: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:213: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:216: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:226: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:228: unknown macro '\end'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:230: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:237: unknown macro '\item'
+Warning: newline within quoted string at RGrace-GUI.Rd:67
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/RGrace-GUI.Rd:249: unknown macro '\end'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/element.Rd:51: unexpected '}'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/ggplot.Rd:30: unexpected '}'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/grid.annotation.Rd:57: unexpected '}'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/grid.data.Rd:37: unknown macro '\begin'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/grid.data.Rd:38: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/grid.data.Rd:40: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/grid.data.Rd:44: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/grid.data.Rd:46: unknown macro '\end'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/grid.data.Rd:64: unexpected '}'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/grid.plotarea.Rd:67: unexpected '}'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/hooks.Rd:117: unknown macro '\begin'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/hooks.Rd:118: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/hooks.Rd:123: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/hooks.Rd:126: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/hooks.Rd:131: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/hooks.Rd:134: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/hooks.Rd:138: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/hooks.Rd:142: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/hooks.Rd:145: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/hooks.Rd:148: unknown macro '\item'
+Warning: /cran/packages/RGrace/0.6-6/RGrace/man/hooks.Rd:154: unknown macro '\end'
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+Xlib:  extension "RANDR" missing on display ":99".
+Error : .onLoad failed in loadNamespace() for 'RGrace', details:
+  call: figure()
+  error: could not find function "gladeXMLNew"
+Error: loading failed
+Execution halted
+ERROR: loading failed
+* removing ‘/home/vagrant/lib/current/RGrace’

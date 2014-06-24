@@ -1,0 +1,2 @@
+ERROR: dependency ‘mitools’ is not available for package ‘kmi’
+* removing ‘/home/vagrant/lib/current/kmi’

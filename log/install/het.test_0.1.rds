@@ -1,0 +1,2 @@
+ERROR: dependency ‘vars’ is not available for package ‘het.test’
+* removing ‘/home/vagrant/lib/current/het.test’

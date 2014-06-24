@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rmosek’ is not available for package ‘REBayes’
+* removing ‘/home/vagrant/lib/current/REBayes’

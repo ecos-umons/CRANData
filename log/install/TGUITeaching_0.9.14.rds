@@ -1,0 +1,2 @@
+ERROR: dependencies ‘TGUICore’, ‘tkrplot’ are not available for package ‘TGUITeaching’
+* removing ‘/home/vagrant/lib/current/TGUITeaching’

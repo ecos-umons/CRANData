@@ -1,0 +1,2 @@
+ERROR: dependency ‘shapes’ is not available for package ‘Anthropometry’
+* removing ‘/home/vagrant/lib/current/Anthropometry’

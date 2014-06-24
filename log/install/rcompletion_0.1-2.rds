@@ -1,0 +1,2 @@
+ERROR: dependency ‘rcompgen’ is not available for package ‘rcompletion’
+* removing ‘/home/vagrant/lib/current/rcompletion’

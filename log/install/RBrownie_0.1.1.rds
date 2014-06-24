@@ -1,0 +1,97 @@
+* installing *source* package ‘RBrownie’ ...
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for ranlib... ranlib
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for cos in -lm... yes
+checking for cblas_dgemm in -lgslcblas... yes
+checking for gsl_blas_dgemm in -lgsl... yes
+AC libs=-lgsl -lgslcblas -lm 
+RCPP_LIB= 
+RCPP_FLAGS= -I/home/vagrant/lib/current/Rcpp/include
+C++ compiler = g++
+C++ compiler flags = -I. -I./brownie_src -O2 -pipe -g -I/home/vagrant/lib/current/Rcpp/include
+configure: creating ./config.status
+config.status: creating src/Makevars
+makefilestatic:357: warning: overriding commands for target `Brownie'
+makefilestatic:92: warning: ignoring old commands for target `Brownie'
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic -fexceptions cdfvectorholder.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes  -o cdfvectorholder.o 
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic brownie.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes  -o brownie.o 
+brownie.cpp: In member function 'virtual std::vector<double> BROWNIE::GetCombinedScore(ContainingTree*)':
+brownie.cpp:1718:22: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+brownie.cpp:1745:23: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+brownie.cpp: In member function 'virtual std::vector<ContainingTree> BROWNIE::MakePrettyForOutput()':
+brownie.cpp:11921:33: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+brownie.cpp: In member function 'virtual void BROWNIE::FormatAndStoreBestTree(ContainingTree*, std::vector<double>)':
+brownie.cpp:11947:29: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+brownie.cpp: In member function 'virtual Node* BROWNIE::EstimateMLDiscreteCharJointAncestralStates(gsl_matrix*, gsl_vector*, int)':
+brownie.cpp:17476:34: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic optimizationfn.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes  -o optimizationfn.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/allelesblock.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o allelesblock.o
+./ncl-2.0/src/allelesblock.cpp: In member function 'virtual void AllelesBlock::Report(std::ostream&)':
+./ncl-2.0/src/allelesblock.cpp:2238:31: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/assumptionsblock.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o assumptionsblock.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/charactersblock.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o charactersblock.o
+./ncl-2.0/src/charactersblock.cpp: In member function 'virtual void CharactersBlock::Report(std::ostream&)':
+./ncl-2.0/src/charactersblock.cpp:3389:31: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/charactersblock2.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o charactersblock2.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/datablock.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o datablock.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/discretedatum.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o discretedatum.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/discretematrix.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o discretematrix.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/distancedatum.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o distancedatum.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/distancesblock.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o distancesblock.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/nexus.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o nexus.o
+./ncl-2.0/src/nexus.cpp: In member function 'char* Nexus::NCLCopyrightNotice()':
+./ncl-2.0/src/nexus.cpp:329:9: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+./ncl-2.0/src/nexus.cpp: In member function 'char* Nexus::NCLHomePageURL()':
+./ncl-2.0/src/nexus.cpp:341:9: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+./ncl-2.0/src/nexus.cpp: In member function 'char* Nexus::NCLNameAndVersion()':
+./ncl-2.0/src/nexus.cpp:354:9: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/nexusblock.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o nexusblock.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/nexustoken.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o nexustoken.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/nxsdate.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o nxsdate.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/nxsstring.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o nxsstring.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/setreader.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o setreader.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/taxablock.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o taxablock.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/treesblock.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o treesblock.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./ncl-2.0/src/xnexus.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o xnexus.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/gport/gport.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o gport.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/gtree.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o gtree.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/ntree.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o ntree.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/stree.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o stree.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/containingtree.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o containingtree.o
+./TreeLib/containingtree.cpp: In member function 'virtual void ContainingTree::ClearInternalLabels()':
+./TreeLib/containingtree.cpp:1408:37: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/Parse.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o Parse.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/tokeniser.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o tokeniser.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/treedrawer.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o treedrawer.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/TreeLib.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o TreeLib.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/treeorder.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o treeorder.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/treereader.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o treereader.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/treewriter.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o treewriter.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/lcaquery.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o lcaquery.o
+g++ -fexceptions -O0 -Wno-deprecated -fpermissive -g -DSTATIC_LIB -fpic ./TreeLib/quartet.cpp -c -I./ncl-2.0/src/ -I./TreeLib/ -I. -I./TreeLib/gport/ -I/usr/includes -o quartet.o
+ar -cru libBrownie.a brownie.o cdfvectorholder.o optimizationfn.o allelesblock.o assumptionsblock.o charactersblock.o charactersblock2.o datablock.o discretedatum.o discretematrix.o distancedatum.o distancesblock.o nexus.o nexusblock.o nexustoken.o nxsdate.o nxsstring.o setreader.o taxablock.o treesblock.o xnexus.o gport.o gtree.o ntree.o stree.o containingtree.o Parse.o tokeniser.o treedrawer.o TreeLib.o treeorder.o treereader.o treewriter.o lcaquery.o quartet.o
+ranlib libBrownie.a
+
+brownie library has now been compiled. yippee.
+rm *.o
+** libs
+make: Nothing to be done for `all'.
+installing to /home/vagrant/lib/current/RBrownie/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Error : class "C++ObjectS3" is not exported by 'namespace:Rcpp'
+ERROR: lazy loading failed for package ‘RBrownie’
+* removing ‘/home/vagrant/lib/current/RBrownie’

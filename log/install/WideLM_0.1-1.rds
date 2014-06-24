@@ -1,0 +1,18 @@
+* installing *source* package ‘WideLM’ ...
+** package ‘WideLM’ successfully unpacked and MD5 sums checked
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+configure: checking for critical tools used by configure
+checking "environment variable COMPILER_BINDIR"... "COMPILER_BINDIR not set; using user's default path"
+checking "environment variable CUDA_HOME"... "CUDA_HOME not set; using default /usr/local/cuda"
+checking for /usr/local/cuda/bin/nvcc... no
+configure: error: "cannot find nvcc; check CUDA install"
+ERROR: configuration failed for package ‘WideLM’
+* removing ‘/home/vagrant/lib/current/WideLM’

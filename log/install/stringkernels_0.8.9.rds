@@ -1,0 +1,2 @@
+ERROR: dependency ‘openNLP’ is not available for package ‘stringkernels’
+* removing ‘/home/vagrant/lib/current/stringkernels’

@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rJava’, ‘rrdflibs’ are not available for package ‘rrdf’
+* removing ‘/home/vagrant/lib/current/rrdf’

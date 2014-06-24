@@ -1,0 +1,2 @@
+ERROR: dependency ‘tkrplot’ is not available for package ‘VIMGUI’
+* removing ‘/home/vagrant/lib/current/VIMGUI’

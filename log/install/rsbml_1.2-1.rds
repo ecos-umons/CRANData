@@ -1,0 +1,2 @@
+ERROR: dependency ‘graph’ is not available for package ‘rsbml’
+* removing ‘/home/vagrant/lib/current/rsbml’

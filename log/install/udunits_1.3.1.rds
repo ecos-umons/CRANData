@@ -1,0 +1,24 @@
+* installing *source* package ‘udunits’ ...
+loading cache ./config.cache
+checking how to run the C preprocessor... gcc -std=gnu99 -E
+checking for gcc... gcc -std=gnu99
+checking whether the C compiler (gcc -std=gnu99 -O2 -pipe -g ) works... yes
+checking whether the C compiler (gcc -std=gnu99 -O2 -pipe -g ) is a cross-compiler... no
+checking whether we are using GNU C... yes
+checking whether gcc -std=gnu99 accepts -g... yes
+checking for /usr/local/include/udunits.h... no
+checking for /usr/include/udunits.h... yes
+checking for /usr/local/lib/libudunits.a... no
+checking for /usr/lib/libudunits.a... no
+checking for /lib/libudunits.a... no
+checking for /home/vagrant/lib/libudunits.a... no
+***********************************************************************************
+***********************************************************************************
+NOTE: udunits package not found!  Either install it in a standard place (/usr or
+/usr/local), or edit the file udunits_1.0/udunits/src/Makevars.in and put in the
+location where the package is installed.
+***********************************************************************************
+***********************************************************************************
+./configure: 1162: exit: Illegal number: -1
+ERROR: configuration failed for package ‘udunits’
+* removing ‘/home/vagrant/lib/current/udunits’

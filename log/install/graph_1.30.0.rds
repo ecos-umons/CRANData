@@ -1,0 +1,8 @@
+* installing *source* package ‘graph’ ...
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O2 -pipe -g  -c graph.c -o graph.o
+graph.c:4:31: fatal error: R_ext/RConverters.h: No such file or directory
+compilation terminated.
+make: *** [graph.o] Error 1
+ERROR: compilation failed for package ‘graph’
+* removing ‘/home/vagrant/lib/current/graph’

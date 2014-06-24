@@ -1,0 +1,12 @@
+* installing *source* package ‘TSpadi’ ...
+** package ‘TSpadi’ successfully unpacked and MD5 sums checked
+** libs
+** arch - 
+rm -f padi_simple_svc
+gcc  -I/usr/lib/R/include -DGMALLOC -trigraphs -DFS_SVC -DNOT_R_CLIENT -DR_NO_REMAP\
+	    simple_svc.c padi.c padiutil.c channel.c rpcx_xdr.c gmalloc.c  -L/usr/local/lib  -o padi_simple_svc
+padi.c:34:15: fatal error: R.h: No such file or directory
+compilation terminated.
+make: *** [../exec/padi_simple_svc] Error 1
+ERROR: compilation failed for package ‘TSpadi’
+* removing ‘/home/vagrant/lib/current/TSpadi’

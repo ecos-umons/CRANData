@@ -1,0 +1,10 @@
+* installing *source* package ‘ExactNumCI’ ...
+** package ‘ExactNumCI’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG -I  -I"/home/vagrant/lib/current/Rcpp/include"   -fpic  -O2 -pipe -g  -c numCI.cpp -o numCI.o
+In file included from numCI.cpp:1:0:
+numCI.h:4:18: fatal error: Rcpp.h: No such file or directory
+compilation terminated.
+make: *** [numCI.o] Error 1
+ERROR: compilation failed for package ‘ExactNumCI’
+* removing ‘/home/vagrant/lib/current/ExactNumCI’

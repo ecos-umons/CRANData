@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rdbi’ is not available for package ‘Rdbi.PgSQL’
+* removing ‘/home/vagrant/lib/current/Rdbi.PgSQL’

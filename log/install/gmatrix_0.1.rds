@@ -1,0 +1,9 @@
+* installing *source* package ‘gmatrix’ ...
+** package ‘gmatrix’ successfully unpacked and MD5 sums checked
+** libs
+** arch - 
+nvcc  -c dist.cu -o dist.o --shared -Xcompiler "-fPIC" -gencode arch=compute_20,code=sm_20 -O2 -I/usr/include/R
+/bin/bash: nvcc: command not found
+make: *** [dist.o] Error 127
+ERROR: compilation failed for package ‘gmatrix’
+* removing ‘/home/vagrant/lib/current/gmatrix’

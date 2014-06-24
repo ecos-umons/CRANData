@@ -1,0 +1,2 @@
+ERROR: dependency ‘mmap’ is not available for package ‘sideChannelAttack’
+* removing ‘/home/vagrant/lib/current/sideChannelAttack’

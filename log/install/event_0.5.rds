@@ -1,0 +1,2 @@
+ERROR: dependency ‘requires’ is not available for package ‘event’
+* removing ‘/home/vagrant/lib/current/event’

@@ -1,0 +1,2 @@
+ERROR: dependency ‘oosp’ is not available for package ‘atm’
+* removing ‘/home/vagrant/lib/current/atm’

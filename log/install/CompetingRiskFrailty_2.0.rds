@@ -1,0 +1,3 @@
+* installing *source* package ‘CompetingRiskFrailty’ ...
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/CompetingRiskFrailty’

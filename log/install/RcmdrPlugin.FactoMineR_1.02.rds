@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rcmdr’ is not available for package ‘RcmdrPlugin.FactoMineR’
+* removing ‘/home/vagrant/lib/current/RcmdrPlugin.FactoMineR’

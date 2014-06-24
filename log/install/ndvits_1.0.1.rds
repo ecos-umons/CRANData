@@ -1,0 +1,2 @@
+ERROR: dependency ‘bfast’ is not available for package ‘ndvits’
+* removing ‘/home/vagrant/lib/current/ndvits’

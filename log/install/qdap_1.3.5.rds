@@ -1,0 +1,2 @@
+ERROR: dependencies ‘openNLP’, ‘venneuler’, ‘xlsx’ are not available for package ‘qdap’
+* removing ‘/home/vagrant/lib/current/qdap’

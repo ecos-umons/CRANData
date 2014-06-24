@@ -1,0 +1,2 @@
+ERROR: dependency ‘plsRglm’ is not available for package ‘plsRbeta’
+* removing ‘/home/vagrant/lib/current/plsRbeta’

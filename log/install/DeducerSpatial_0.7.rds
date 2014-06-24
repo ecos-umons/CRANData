@@ -1,0 +1,2 @@
+ERROR: dependencies ‘JavaGD’, ‘Deducer’, ‘OpenStreetMap’ are not available for package ‘DeducerSpatial’
+* removing ‘/home/vagrant/lib/current/DeducerSpatial’

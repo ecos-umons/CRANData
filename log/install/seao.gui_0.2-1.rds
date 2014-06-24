@@ -1,0 +1,2 @@
+ERROR: dependency ‘seao’ is not available for package ‘seao.gui’
+* removing ‘/home/vagrant/lib/current/seao.gui’

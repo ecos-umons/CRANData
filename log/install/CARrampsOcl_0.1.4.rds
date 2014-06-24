@@ -1,0 +1,2 @@
+ERROR: dependency ‘OpenCL’ is not available for package ‘CARrampsOcl’
+* removing ‘/home/vagrant/lib/current/CARrampsOcl’

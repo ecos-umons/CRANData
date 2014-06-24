@@ -1,0 +1,2 @@
+ERROR: dependency ‘all’ is not available for package ‘AnalyzeIO’
+* removing ‘/home/vagrant/lib/current/AnalyzeIO’

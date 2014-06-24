@@ -1,0 +1,2 @@
+ERROR: dependency ‘RJDBC’ is not available for package ‘RpgSQL’
+* removing ‘/home/vagrant/lib/current/RpgSQL’

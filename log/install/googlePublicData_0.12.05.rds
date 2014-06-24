@@ -1,0 +1,2 @@
+ERROR: dependency ‘XLConnect’ is not available for package ‘googlePublicData’
+* removing ‘/home/vagrant/lib/current/googlePublicData’

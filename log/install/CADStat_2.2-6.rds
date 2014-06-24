@@ -1,0 +1,2 @@
+ERROR: dependencies ‘JGR’, ‘rJava’ are not available for package ‘CADStat’
+* removing ‘/home/vagrant/lib/current/CADStat’

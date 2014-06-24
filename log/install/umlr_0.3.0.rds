@@ -1,0 +1,2 @@
+ERROR: dependency ‘ofp’ is not available for package ‘umlr’
+* removing ‘/home/vagrant/lib/current/umlr’

@@ -1,0 +1,2 @@
+ERROR: dependencies ‘RWekajars’, ‘rJava’ are not available for package ‘RWeka’
+* removing ‘/home/vagrant/lib/current/RWeka’

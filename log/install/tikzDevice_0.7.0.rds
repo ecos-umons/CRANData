@@ -1,0 +1,46 @@
+* installing *source* package ‘tikzDevice’ ...
+** package ‘tikzDevice’ successfully unpacked and MD5 sums checked
+** libs
+make: Nothing to be done for `all'.
+installing to /home/vagrant/lib/current/tikzDevice/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+Error : .onLoad failed in loadNamespace() for 'tikzDevice', details:
+  call: fun(libname, pkgname)
+  error: 
+
+An appropriate LaTeX compiler could not be found.
+Access to LaTeX is required in order for the TikZ device
+to produce output.
+
+The following places were tested for a valid LaTeX compiler:
+
+	the global option: tikzLatex
+	the environment variable: R_LATEXCMD
+	the environment variable: R_PDFLATEXCMD
+	the global option: latexcmd
+	the PATH using the command: pdflatex
+	the PATH using the command: latex
+	the PATH using the command: /usr/texbin/pdflatex
+
+If you have a working LaTeX compiler, try one of the
+following solutions:
+
+	Set the path to your compiler as the value of either latexcmd or
+	tikzLatex in .Rprofile using options().
+
+	Set the path to your compiler as the value of either R_LATEXCMD or
+	R_PDFLATEXCMD in .Renviron.
+
+	Ensure the folder containing your compiler is included in PATH.
+
+Error: loading failed
+Execution halted
+ERROR: loading failed
+* removing ‘/home/vagrant/lib/current/tikzDevice’

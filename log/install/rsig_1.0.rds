@@ -1,0 +1,2 @@
+ERROR: dependency ‘survcomp’ is not available for package ‘rsig’
+* removing ‘/home/vagrant/lib/current/rsig’

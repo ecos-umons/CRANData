@@ -1,0 +1,3 @@
+* installing *source* package ‘cir’ ...
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/cir’

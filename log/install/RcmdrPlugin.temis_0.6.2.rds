@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rcmdr’ is not available for package ‘RcmdrPlugin.temis’
+* removing ‘/home/vagrant/lib/current/RcmdrPlugin.temis’

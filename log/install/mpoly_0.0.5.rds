@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rSymPy’, ‘rJython’, ‘rJava’ are not available for package ‘mpoly’
+* removing ‘/home/vagrant/lib/current/mpoly’

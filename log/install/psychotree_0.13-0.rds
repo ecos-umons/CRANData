@@ -1,0 +1,2 @@
+ERROR: dependencies ‘party’, ‘strucchange’ are not available for package ‘psychotree’
+* removing ‘/home/vagrant/lib/current/psychotree’

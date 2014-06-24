@@ -1,0 +1,72 @@
+* installing *source* package ‘cxxPack’ ...
+** libs
+g++ -I/usr/share/R/include -DNDEBUG -I/home/vagrant/lib/current/Rcpp/include  -Wno-variadic-macros -I../inst/include     -fpic  -O2 -pipe -g  -c AppLayer.cpp -o AppLayer.o
+In file included from ../inst/include/FinDate.hpp:24:0,
+                 from ../inst/include/AppLayer.hpp:21,
+                 from AppLayer.cpp:17:
+../inst/include/cxxUtils.hpp:56:26: error: ‘RcppDate’ was not declared in this scope
+../inst/include/cxxUtils.hpp:56:42: error: ‘RcppDate’ does not name a type
+../inst/include/cxxUtils.hpp:56:50: error: ISO C++ forbids declaration of ‘parameter’ with no type [-fpermissive]
+../inst/include/cxxUtils.hpp:56:21: error: template-id ‘wrap<<expression error> >’ for ‘SEXPREC* Rcpp::wrap(const int&)’ does not match any template declaration
+../inst/include/cxxUtils.hpp:57:26: error: ‘RcppDatetime’ was not declared in this scope
+../inst/include/cxxUtils.hpp:57:46: error: ‘RcppDatetime’ does not name a type
+../inst/include/cxxUtils.hpp:57:58: error: ISO C++ forbids declaration of ‘parameter’ with no type [-fpermissive]
+../inst/include/cxxUtils.hpp:57:21: error: template-id ‘wrap<<expression error> >’ for ‘SEXPREC* Rcpp::wrap(const int&)’ does not match any template declaration
+../inst/include/cxxUtils.hpp:58:26: error: ‘RcppDateVector’ was not declared in this scope
+../inst/include/cxxUtils.hpp:58:48: error: ‘RcppDateVector’ does not name a type
+../inst/include/cxxUtils.hpp:58:62: error: ISO C++ forbids declaration of ‘parameter’ with no type [-fpermissive]
+../inst/include/cxxUtils.hpp:58:21: error: template-id ‘wrap<<expression error> >’ for ‘SEXPREC* Rcpp::wrap(const int&)’ does not match any template declaration
+../inst/include/cxxUtils.hpp:59:26: error: ‘RcppDatetimeVector’ was not declared in this scope
+../inst/include/cxxUtils.hpp:59:52: error: ‘RcppDatetimeVector’ does not name a type
+../inst/include/cxxUtils.hpp:59:70: error: ISO C++ forbids declaration of ‘parameter’ with no type [-fpermissive]
+../inst/include/cxxUtils.hpp:59:21: error: template-id ‘wrap<<expression error> >’ for ‘SEXPREC* Rcpp::wrap(const int&)’ does not match any template declaration
+../inst/include/cxxUtils.hpp:61:26: error: ‘RcppVector’ was not declared in this scope
+../inst/include/cxxUtils.hpp:61:21: error: parse error in template argument list
+../inst/include/cxxUtils.hpp:61:45: error: expected initializer before ‘>’ token
+../inst/include/cxxUtils.hpp:62:26: error: ‘RcppVector’ was not declared in this scope
+../inst/include/cxxUtils.hpp:62:21: error: parse error in template argument list
+../inst/include/cxxUtils.hpp:62:42: error: expected initializer before ‘>’ token
+In file included from ../inst/include/AppLayer.hpp:21:0,
+                 from AppLayer.cpp:17:
+../inst/include/FinDate.hpp:251:25: error: ‘double cxxPack::serialNumber’ redeclared as different kind of symbol
+../inst/include/FinDate.hpp:250:12: error: previous declaration of ‘double cxxPack::serialNumber(cxxPack::FinDate&, cxxPack::SerialType)’
+../inst/include/FinDate.hpp:251:25: error: ‘RcppDate’ was not declared in this scope
+../inst/include/FinDate.hpp:251:34: error: expected primary-expression before ‘,’ token
+../inst/include/FinDate.hpp:251:55: error: expected primary-expression before ‘)’ token
+../inst/include/FinDate.hpp:252:25: error: ‘double cxxPack::serialNumber’ redeclared as different kind of symbol
+../inst/include/FinDate.hpp:250:12: error: previous declaration of ‘double cxxPack::serialNumber(cxxPack::FinDate&, cxxPack::SerialType)’
+../inst/include/FinDate.hpp:252:25: error: ‘RcppDatetime’ was not declared in this scope
+../inst/include/FinDate.hpp:252:38: error: expected primary-expression before ‘,’ token
+../inst/include/FinDate.hpp:252:59: error: expected primary-expression before ‘)’ token
+In file included from AppLayer.cpp:17:0:
+../inst/include/AppLayer.hpp:75:12: error: ‘RcppDatetime’ does not name a type
+../inst/include/AppLayer.hpp:82:17: error: ‘RcppDatetime’ was not declared in this scope
+../inst/include/AppLayer.hpp:82:29: error: template argument 1 is invalid
+../inst/include/AppLayer.hpp:82:29: error: template argument 2 is invalid
+../inst/include/AppLayer.hpp: In member function ‘int cxxPack::CDatetimeVector::size()’:
+../inst/include/AppLayer.hpp:74:36: error: request for member ‘size’ in ‘((cxxPack::CDatetimeVector*)this)->cxxPack::CDatetimeVector::vec’, which is of non-class type ‘int’
+AppLayer.cpp: In member function ‘cxxPack::CDateVector::operator SEXP()’:
+AppLayer.cpp:63:21: error: call of overloaded ‘RObject_Impl(Rcpp::NumericVector&)’ is ambiguous
+AppLayer.cpp:63:21: note: candidates are:
+In file included from /home/vagrant/lib/current/Rcpp/include/Rcpp.h:29:0,
+                 from ../inst/include/AppLayer.hpp:20,
+                 from AppLayer.cpp:17:
+/home/vagrant/lib/current/Rcpp/include/Rcpp/RObject.h:42:9: note: Rcpp::RObject_Impl<StoragePolicy>::RObject_Impl(SEXP) [with StoragePolicy = Rcpp::PreserveStorage; SEXP = SEXPREC*]
+/home/vagrant/lib/current/Rcpp/include/Rcpp/RObject.h:35:9: note: Rcpp::RObject_Impl<StoragePolicy>::RObject_Impl(const Rcpp::RObject_Impl<StoragePolicy>&) [with StoragePolicy = Rcpp::PreserveStorage; Rcpp::RObject_Impl<StoragePolicy> = Rcpp::RObject_Impl<Rcpp::PreserveStorage>]
+AppLayer.cpp: In constructor ‘cxxPack::CDatetimeVector::CDatetimeVector(Rcpp::NumericVector)’:
+AppLayer.cpp:70:9: error: request for member ‘resize’ in ‘((cxxPack::CDatetimeVector*)this)->cxxPack::CDatetimeVector::vec’, which is of non-class type ‘int’
+AppLayer.cpp:71:43: error: invalid types ‘int[int]’ for array subscript
+AppLayer.cpp:71:65: error: ‘RcppDatetime’ was not declared in this scope
+AppLayer.cpp: In member function ‘cxxPack::CDatetimeVector::operator SEXP()’:
+AppLayer.cpp:75:32: error: request for member ‘size’ in ‘((cxxPack::CDatetimeVector*)this)->cxxPack::CDatetimeVector::vec’, which is of non-class type ‘int’
+AppLayer.cpp:76:51: error: invalid types ‘int[int]’ for array subscript
+AppLayer.cpp:80:21: error: call of overloaded ‘RObject_Impl(Rcpp::NumericVector&)’ is ambiguous
+AppLayer.cpp:80:21: note: candidates are:
+In file included from /home/vagrant/lib/current/Rcpp/include/Rcpp.h:29:0,
+                 from ../inst/include/AppLayer.hpp:20,
+                 from AppLayer.cpp:17:
+/home/vagrant/lib/current/Rcpp/include/Rcpp/RObject.h:42:9: note: Rcpp::RObject_Impl<StoragePolicy>::RObject_Impl(SEXP) [with StoragePolicy = Rcpp::PreserveStorage; SEXP = SEXPREC*]
+/home/vagrant/lib/current/Rcpp/include/Rcpp/RObject.h:35:9: note: Rcpp::RObject_Impl<StoragePolicy>::RObject_Impl(const Rcpp::RObject_Impl<StoragePolicy>&) [with StoragePolicy = Rcpp::PreserveStorage; Rcpp::RObject_Impl<StoragePolicy> = Rcpp::RObject_Impl<Rcpp::PreserveStorage>]
+make: *** [AppLayer.o] Error 1
+ERROR: compilation failed for package ‘cxxPack’
+* removing ‘/home/vagrant/lib/current/cxxPack’

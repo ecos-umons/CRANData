@@ -1,0 +1,101 @@
+* installing *source* package ‘ElectroGraph’ ...
+** package ‘ElectroGraph’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG -DSCYTHE_DEBUG=0 -DHAVE_TRUNC -DSCYTHE_LAPACK -DSCYTHE_R_PACKAGE     -fpic  -O2 -pipe -g  -c electrograph-routines.cpp -o electrograph-routines.o
+In file included from scythestat-act/distributions.h:96:0,
+                 from scythe-extended.h:7,
+                 from electrograph-routines.cpp:18:
+scythestat-act/matrix.h: In instantiation of ‘scythe::Matrix<T_type, ORDER, STYLE>::Matrix(const scythe::Matrix<T_type, ORDER, STYLE>&) [with T_type = double; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::Matrix<T_type, ORDER, STYLE> = scythe::Matrix<>]’:
+scythestat-act/matrix.h:5047:24:   required from here
+scythestat-act/matrix.h:1266:11: error: ‘referenceNew’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1266:11: note: declarations in dependent base ‘scythe::DataBlockReference<double>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1266:11: note: use ‘this->referenceNew’ instead
+scythestat-act/matrix.h:1269:11: error: ‘referenceOther’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1269:11: note: declarations in dependent base ‘scythe::DataBlockReference<double>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1269:11: note: use ‘this->referenceOther’ instead
+scythestat-act/matrix.h: In instantiation of ‘scythe::Matrix<T_type, ORDER, STYLE>::Matrix(const scythe::Matrix<T_type, ORDER, STYLE>&) [with T_type = int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::Matrix<T_type, ORDER, STYLE> = scythe::Matrix<int>]’:
+electrograph-routines.cpp:28:32:   required from here
+scythestat-act/matrix.h:1266:11: error: ‘referenceNew’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1266:11: note: declarations in dependent base ‘scythe::DataBlockReference<int>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1266:11: note: use ‘this->referenceNew’ instead
+scythestat-act/matrix.h:1269:11: error: ‘referenceOther’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1269:11: note: declarations in dependent base ‘scythe::DataBlockReference<int>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1269:11: note: use ‘this->referenceOther’ instead
+scythestat-act/matrix.h: In instantiation of ‘scythe::Matrix<T_type, ORDER, STYLE>::Matrix(const scythe::Matrix<T_type, ORDER, STYLE>&) [with T_type = double; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)1u; scythe::Matrix<T_type, ORDER, STYLE> = scythe::Matrix<double, (scythe::matrix_order)0u, (scythe::matrix_style)1u>]’:
+scythestat-act/matrix.h:1851:47:   required from ‘scythe::Matrix<T_type, ORDER, (scythe::matrix_style)1u> scythe::Matrix<T_type, ORDER, STYLE>::operator()(scythe::{anonymous}::uint, scythe::all_elements) [with T_type = double; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::{anonymous}::uint = unsigned int]’
+scythestat-act/ide.h:1268:18:   required from here
+scythestat-act/matrix.h:1266:11: error: ‘referenceNew’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1266:11: note: declarations in dependent base ‘scythe::DataBlockReference<double>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1266:11: note: use ‘this->referenceNew’ instead
+scythestat-act/matrix.h:1269:11: error: ‘referenceOther’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1269:11: note: declarations in dependent base ‘scythe::DataBlockReference<double>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1269:11: note: use ‘this->referenceOther’ instead
+scythestat-act/matrix.h: In instantiation of ‘scythe::Matrix<T_type, ORDER, STYLE>::Matrix(const scythe::Matrix<T_type, ORDER, STYLE>&) [with T_type = unsigned int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::Matrix<T_type, ORDER, STYLE> = scythe::Matrix<unsigned int>]’:
+scythestat-act/la.h:466:31:   required from ‘scythe::Matrix<unsigned int, PO, (scythe::matrix_style)0u> scythe::order(const scythe::Matrix<T_type, ORDER, P_STYLE>&) [with T = double; scythe::matrix_order O = (scythe::matrix_order)0u; scythe::matrix_style S = (scythe::matrix_style)0u]’
+electrograph-routines.cpp:28:32:   required from here
+scythestat-act/matrix.h:1266:11: error: ‘referenceNew’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1266:11: note: declarations in dependent base ‘scythe::DataBlockReference<unsigned int>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1266:11: note: use ‘this->referenceNew’ instead
+scythestat-act/matrix.h:1269:11: error: ‘referenceOther’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1269:11: note: declarations in dependent base ‘scythe::DataBlockReference<unsigned int>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1269:11: note: use ‘this->referenceOther’ instead
+scythestat-act/matrix.h: In instantiation of ‘scythe::Matrix<T_type, ORDER, STYLE>::Matrix(const scythe::Matrix<T_type, O, S>&) [with scythe::matrix_order O = (scythe::matrix_order)0u; scythe::matrix_style S = (scythe::matrix_style)0u; T_type = double; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)1u]’:
+scythestat-act/matrix.h:2723:48:   required from ‘void scythe::Matrix<T_type, ORDER, STYLE>::resize(scythe::{anonymous}::uint, scythe::{anonymous}::uint, bool) [with T_type = double; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::{anonymous}::uint = unsigned int]’
+scythestat-act/matrix.h:2764:5:   required from ‘void scythe::Matrix<T_type, ORDER, STYLE>::resize2Match(const scythe::Matrix<S_type, O, S>&, bool) [with T = double; scythe::matrix_order O = (scythe::matrix_order)0u; scythe::matrix_style S = (scythe::matrix_style)0u; T_type = double; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u]’
+scythestat-act/matrix.h:1949:11:   required from ‘scythe::Matrix<T_type, ORDER, STYLE>& scythe::Matrix<T_type, ORDER, STYLE>::operator=(const scythe::Matrix<T_type, ORDER, STYLE>&) [with T_type = double; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::Matrix<T_type, ORDER, STYLE> = scythe::Matrix<>]’
+scythestat-act/ide.h:1172:17:   required from here
+scythestat-act/matrix.h:1313:11: error: ‘referenceNew’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1313:11: note: declarations in dependent base ‘scythe::DataBlockReference<double>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1313:11: note: use ‘this->referenceNew’ instead
+scythestat-act/matrix.h:1316:11: error: ‘referenceOther’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1316:11: note: declarations in dependent base ‘scythe::DataBlockReference<double>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1316:11: note: use ‘this->referenceOther’ instead
+scythestat-act/matrix.h: In instantiation of ‘scythe::Matrix<T_type, ORDER, STYLE>::Matrix(const scythe::Matrix<T_type, ORDER, STYLE>&) [with T_type = unsigned int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)1u; scythe::Matrix<T_type, ORDER, STYLE> = scythe::Matrix<unsigned int, (scythe::matrix_order)0u, (scythe::matrix_style)1u>]’:
+scythestat-act/matrix.h:1738:63:   required from ‘scythe::Matrix<T_type, ORDER, (scythe::matrix_style)1u> scythe::Matrix<T_type, ORDER, STYLE>::operator()(scythe::{anonymous}::uint, scythe::{anonymous}::uint, scythe::{anonymous}::uint, scythe::{anonymous}::uint) [with T_type = unsigned int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::{anonymous}::uint = unsigned int]’
+scythestat-act/ide.h:1064:5:   required from ‘double scythe::lu_decomp_alg(scythe::Matrix<>&, scythe::Matrix<double, PO2, (scythe::matrix_style)0u>&, scythe::Matrix<double, PO3, (scythe::matrix_style)0u>&, scythe::Matrix<unsigned int, PO4, (scythe::matrix_style)0u>&) [with scythe::matrix_order PO2 = (scythe::matrix_order)0u; scythe::matrix_order PO3 = (scythe::matrix_order)0u; scythe::matrix_order PO4 = (scythe::matrix_order)0u]’
+scythestat-act/ide.h:692:5:   required from ‘scythe::Matrix<T_type, R_ORDER, (scythe::matrix_style)0u> scythe::lu_solve(scythe::Matrix<T_type, ORDER, STYLE>, const scythe::Matrix<T_type, L_ORDER, L_STYLE>&) [with T = double; scythe::matrix_order PO1 = (scythe::matrix_order)0u; scythe::matrix_style PS1 = (scythe::matrix_style)0u; scythe::matrix_order PO2 = (scythe::matrix_order)0u; scythe::matrix_style PS2 = (scythe::matrix_style)0u]’
+electrograph-routines.cpp:208:25:   required from here
+scythestat-act/matrix.h:1266:11: error: ‘referenceNew’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1266:11: note: declarations in dependent base ‘scythe::DataBlockReference<unsigned int>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1266:11: note: use ‘this->referenceNew’ instead
+scythestat-act/matrix.h:1269:11: error: ‘referenceOther’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1269:11: note: declarations in dependent base ‘scythe::DataBlockReference<unsigned int>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1269:11: note: use ‘this->referenceOther’ instead
+scythestat-act/matrix.h: In instantiation of ‘scythe::Matrix<T_type, ORDER, STYLE>::Matrix(const scythe::Matrix<T_type, ORDER, STYLE>&) [with T_type = bool; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::Matrix<T_type, ORDER, STYLE> = scythe::Matrix<bool, (scythe::matrix_order)0u, (scythe::matrix_style)0u>]’:
+scythestat-act/matrix.h:4815:3:   required from ‘scythe::Matrix<bool, ORDER, (scythe::matrix_style)0u> scythe::operator>(const scythe::Matrix<T_type, ORDER, P_STYLE>&, const typename scythe::Matrix<T_type>::ttype&) [with T_type = unsigned int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style L_STYLE = (scythe::matrix_style)0u; typename scythe::Matrix<T_type>::ttype = unsigned int]’
+scythestat-act/ide.h:1067:5:   required from ‘double scythe::lu_decomp_alg(scythe::Matrix<>&, scythe::Matrix<double, PO2, (scythe::matrix_style)0u>&, scythe::Matrix<double, PO3, (scythe::matrix_style)0u>&, scythe::Matrix<unsigned int, PO4, (scythe::matrix_style)0u>&) [with scythe::matrix_order PO2 = (scythe::matrix_order)0u; scythe::matrix_order PO3 = (scythe::matrix_order)0u; scythe::matrix_order PO4 = (scythe::matrix_order)0u]’
+scythestat-act/ide.h:692:5:   required from ‘scythe::Matrix<T_type, R_ORDER, (scythe::matrix_style)0u> scythe::lu_solve(scythe::Matrix<T_type, ORDER, STYLE>, const scythe::Matrix<T_type, L_ORDER, L_STYLE>&) [with T = double; scythe::matrix_order PO1 = (scythe::matrix_order)0u; scythe::matrix_style PS1 = (scythe::matrix_style)0u; scythe::matrix_order PO2 = (scythe::matrix_order)0u; scythe::matrix_style PS2 = (scythe::matrix_style)0u]’
+electrograph-routines.cpp:208:25:   required from here
+scythestat-act/matrix.h:1266:11: error: ‘referenceNew’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1266:11: note: declarations in dependent base ‘scythe::DataBlockReference<bool>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1266:11: note: use ‘this->referenceNew’ instead
+scythestat-act/matrix.h:1269:11: error: ‘referenceOther’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1269:11: note: declarations in dependent base ‘scythe::DataBlockReference<bool>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1269:11: note: use ‘this->referenceOther’ instead
+scythestat-act/matrix.h: In instantiation of ‘scythe::Matrix<T_type, ORDER, STYLE>::Matrix(const scythe::Matrix<T_type, O, S>&) [with scythe::matrix_order O = (scythe::matrix_order)0u; scythe::matrix_style S = (scythe::matrix_style)0u; T_type = unsigned int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)1u]’:
+scythestat-act/matrix.h:2723:48:   required from ‘void scythe::Matrix<T_type, ORDER, STYLE>::resize(scythe::{anonymous}::uint, scythe::{anonymous}::uint, bool) [with T_type = unsigned int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::{anonymous}::uint = unsigned int]’
+scythestat-act/matrix.h:2764:5:   required from ‘void scythe::Matrix<T_type, ORDER, STYLE>::resize2Match(const scythe::Matrix<S_type, O, S>&, bool) [with T = unsigned int; scythe::matrix_order O = (scythe::matrix_order)0u; scythe::matrix_style S = (scythe::matrix_style)0u; T_type = unsigned int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u]’
+scythestat-act/matrix.h:2154:6:   required from ‘scythe::Matrix<T_type, ORDER, STYLE>& scythe::Matrix<T_type, ORDER, STYLE>::elementWiseOperatorAssignment(const scythe::Matrix<T_type, O, S>&, OP) [with OP = std::minus<unsigned int>; scythe::matrix_order O = (scythe::matrix_order)0u; scythe::matrix_style S = (scythe::matrix_style)0u; T_type = unsigned int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::Matrix<T_type, ORDER, STYLE> = scythe::Matrix<unsigned int>]’
+scythestat-act/matrix.h:2260:34:   required from ‘scythe::Matrix<T_type, ORDER, STYLE>& scythe::Matrix<T_type, ORDER, STYLE>::operator-=(T_type) [with T_type = unsigned int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::Matrix<T_type, ORDER, STYLE> = scythe::Matrix<unsigned int>]’
+scythestat-act/ide.h:1169:14:   required from here
+scythestat-act/matrix.h:1313:11: error: ‘referenceNew’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1313:11: note: declarations in dependent base ‘scythe::DataBlockReference<unsigned int>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1313:11: note: use ‘this->referenceNew’ instead
+scythestat-act/matrix.h:1316:11: error: ‘referenceOther’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1316:11: note: declarations in dependent base ‘scythe::DataBlockReference<unsigned int>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1316:11: note: use ‘this->referenceOther’ instead
+scythestat-act/matrix.h: In instantiation of ‘scythe::Matrix<T_type, ORDER, STYLE>::Matrix(const scythe::Matrix<T_type, O, S>&) [with scythe::matrix_order O = (scythe::matrix_order)0u; scythe::matrix_style S = (scythe::matrix_style)0u; T_type = int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)1u]’:
+scythestat-act/matrix.h:2723:48:   required from ‘void scythe::Matrix<T_type, ORDER, STYLE>::resize(scythe::{anonymous}::uint, scythe::{anonymous}::uint, bool) [with T_type = int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::{anonymous}::uint = unsigned int]’
+scythestat-act/matrix.h:2764:5:   required from ‘void scythe::Matrix<T_type, ORDER, STYLE>::resize2Match(const scythe::Matrix<S_type, O, S>&, bool) [with T = int; scythe::matrix_order O = (scythe::matrix_order)0u; scythe::matrix_style S = (scythe::matrix_style)0u; T_type = int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u]’
+scythestat-act/matrix.h:1949:11:   required from ‘scythe::Matrix<T_type, ORDER, STYLE>& scythe::Matrix<T_type, ORDER, STYLE>::operator=(const scythe::Matrix<T_type, ORDER, STYLE>&) [with T_type = int; scythe::matrix_order ORDER = (scythe::matrix_order)0u; scythe::matrix_style STYLE = (scythe::matrix_style)0u; scythe::Matrix<T_type, ORDER, STYLE> = scythe::Matrix<int>]’
+scythe-extended.h:49:4:   required from ‘void expand_to_fit(scythe::Matrix<T1>&, scythe::Matrix<T2>&) [with T1 = double; T2 = int]’
+scythe-extended.h:152:25:   required from here
+scythestat-act/matrix.h:1313:11: error: ‘referenceNew’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1313:11: note: declarations in dependent base ‘scythe::DataBlockReference<int>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1313:11: note: use ‘this->referenceNew’ instead
+scythestat-act/matrix.h:1316:11: error: ‘referenceOther’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+scythestat-act/matrix.h:1316:11: note: declarations in dependent base ‘scythe::DataBlockReference<int>’ are not found by unqualified lookup
+scythestat-act/matrix.h:1316:11: note: use ‘this->referenceOther’ instead
+make: *** [electrograph-routines.o] Error 1
+ERROR: compilation failed for package ‘ElectroGraph’
+* removing ‘/home/vagrant/lib/current/ElectroGraph’

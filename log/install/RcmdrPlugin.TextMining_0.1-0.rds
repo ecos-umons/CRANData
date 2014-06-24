@@ -1,0 +1,2 @@
+ERROR: dependencies ‘Snowball’, ‘Rgraphviz’, ‘Rcmdr’ are not available for package ‘RcmdrPlugin.TextMining’
+* removing ‘/home/vagrant/lib/current/RcmdrPlugin.TextMining’

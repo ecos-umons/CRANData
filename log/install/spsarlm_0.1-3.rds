@@ -1,0 +1,2 @@
+ERROR: dependencies ‘spweights’, ‘sptests’ are not available for package ‘spsarlm’
+* removing ‘/home/vagrant/lib/current/spsarlm’

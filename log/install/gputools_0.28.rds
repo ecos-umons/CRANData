@@ -1,0 +1,9 @@
+* installing *source* package ‘gputools’ ...
+** package ‘gputools’ successfully unpacked and MD5 sums checked
+** libs
+** arch - 
+/usr/local/cuda/bin/nvcc -gencode arch=compute_10,code=sm_10 -gencode arch=compute_13,code=sm_13 -gencode arch=compute_20,code=sm_20 -gencode arch=compute_30,code=sm_30 -c -I. -I"/usr/local/cuda/include" -I"/usr/lib/R/include"  -Xcompiler -fpic rinterface.cu -o rinterface.o
+/bin/bash: /usr/local/cuda/bin/nvcc: No such file or directory
+make: *** [rinterface.o] Error 127
+ERROR: compilation failed for package ‘gputools’
+* removing ‘/home/vagrant/lib/current/gputools’

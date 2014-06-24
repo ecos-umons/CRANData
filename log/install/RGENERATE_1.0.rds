@@ -1,0 +1,2 @@
+ERROR: dependency ‘RMAWGEN’ is not available for package ‘RGENERATE’
+* removing ‘/home/vagrant/lib/current/RGENERATE’

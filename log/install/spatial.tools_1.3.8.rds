@@ -1,0 +1,2 @@
+ERROR: dependency ‘mmap’ is not available for package ‘spatial.tools’
+* removing ‘/home/vagrant/lib/current/spatial.tools’

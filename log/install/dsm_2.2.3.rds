@@ -1,0 +1,2 @@
+ERROR: dependency ‘mrds’ is not available for package ‘dsm’
+* removing ‘/home/vagrant/lib/current/dsm’

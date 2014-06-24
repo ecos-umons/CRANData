@@ -1,0 +1,8 @@
+* installing *source* package ‘RStackExchange’ ...
+** R
+** inst
+** preparing package for lazy loading
+Error : invalid assignment for reference class field ‘maxCallsPerPeriod’, should be from class “integer” or a subclass (was class “numeric”)
+Error : unable to load R code in package ‘RStackExchange’
+ERROR: lazy loading failed for package ‘RStackExchange’
+* removing ‘/home/vagrant/lib/current/RStackExchange’

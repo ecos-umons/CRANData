@@ -1,0 +1,2 @@
+ERROR: dependency ‘biOps’ is not available for package ‘biOpsGUI’
+* removing ‘/home/vagrant/lib/current/biOpsGUI’

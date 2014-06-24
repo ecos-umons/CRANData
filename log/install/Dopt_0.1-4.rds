@@ -1,0 +1,3 @@
+* installing *source* package ‘Dopt’ ...
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/Dopt’

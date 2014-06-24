@@ -1,0 +1,5 @@
+* installing *source* package ‘gRcox’ ...
+Warning in .write_description(db, file.path(outDir, "DESCRIPTION")) :
+  Unknown encoding with non-ASCII data: converting to ASCII
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/gRcox’

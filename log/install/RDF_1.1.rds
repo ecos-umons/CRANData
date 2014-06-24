@@ -1,0 +1,21 @@
+* installing *source* package ‘RDF’ ...
+file ‘src/Makevars’ has the wrong MD5 checksum
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for raptor_new_parser in -lraptor2... no
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O2 -pipe -g  -c RDF.c -o RDF.o
+RDF.c:2:21: fatal error: raptor2.h: No such file or directory
+compilation terminated.
+make: *** [RDF.o] Error 1
+ERROR: compilation failed for package ‘RDF’
+* removing ‘/home/vagrant/lib/current/RDF’

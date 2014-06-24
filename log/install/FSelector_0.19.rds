@@ -1,0 +1,2 @@
+ERROR: dependency ‘RWeka’ is not available for package ‘FSelector’
+* removing ‘/home/vagrant/lib/current/FSelector’

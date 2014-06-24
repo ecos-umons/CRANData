@@ -1,0 +1,2 @@
+ERROR: dependency ‘neldermead’ is not available for package ‘scaRabee’
+* removing ‘/home/vagrant/lib/current/scaRabee’

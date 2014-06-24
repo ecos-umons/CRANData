@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rJava’, ‘Rjmsjars’ are not available for package ‘Rjms’
+* removing ‘/home/vagrant/lib/current/Rjms’

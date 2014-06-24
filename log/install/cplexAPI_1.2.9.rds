@@ -1,0 +1,16 @@
+* installing *source* package ‘cplexAPI’ ...
+** package ‘cplexAPI’ successfully unpacked and MD5 sums checked
+checking for gcc... gcc -std=gnu99
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -std=gnu99 accepts -g... yes
+checking for gcc -std=gnu99 option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -std=gnu99 -E
+checking for cplex... NONE
+configure: error: CPLEX interactive optimizer not found
+ERROR: configuration failed for package ‘cplexAPI’
+* removing ‘/home/vagrant/lib/current/cplexAPI’

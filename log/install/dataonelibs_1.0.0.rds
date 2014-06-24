@@ -1,0 +1,2 @@
+ERROR: dependency ‘rJava’ is not available for package ‘dataonelibs’
+* removing ‘/home/vagrant/lib/current/dataonelibs’

@@ -1,0 +1,51 @@
+* installing *source* package ‘baymvb’ ...
+** libs
+g++ -I/usr/share/R/include -DNDEBUG     -DSCYTHE_COMPILE_DIRECT -DSCYTHE_NO_RANGE  -DHAVE_TRUNC -fpic  -O2 -pipe -g  -c MCMCdistn.cc -o MCMCdistn.o
+In file included from matrix.h:38:0,
+                 from MCMCdistn.cc:23:
+error.h: In function ‘void SCYTHE::scythe_terminate()’:
+error.h:312:12: error: ‘abort’ was not declared in this scope
+In file included from MCMCdistn.cc:23:0:
+matrix.h: At global scope:
+matrix.h:74:39: error: declaration of ‘typedef class SCYTHE::row_major_iterator<T> SCYTHE::Matrix<T>::row_major_iterator’ [-fpermissive]
+In file included from matrix.h:40:0,
+                 from MCMCdistn.cc:23:
+matrix_iterator.h:287:9: error: changes meaning of ‘row_major_iterator’ from ‘class SCYTHE::row_major_iterator<T>’ [-fpermissive]
+In file included from MCMCdistn.cc:23:0:
+matrix.h:75:45: error: declaration of ‘typedef class SCYTHE::const_row_major_iterator<T> SCYTHE::Matrix<T>::const_row_major_iterator’ [-fpermissive]
+In file included from matrix.h:40:0,
+                 from MCMCdistn.cc:23:
+matrix_iterator.h:492:9: error: changes meaning of ‘const_row_major_iterator’ from ‘class SCYTHE::const_row_major_iterator<T>’ [-fpermissive]
+In file included from MCMCdistn.cc:23:0:
+matrix.h:76:39: error: declaration of ‘typedef class SCYTHE::col_major_iterator<T> SCYTHE::Matrix<T>::col_major_iterator’ [-fpermissive]
+In file included from matrix.h:40:0,
+                 from MCMCdistn.cc:23:
+matrix_iterator.h:703:9: error: changes meaning of ‘col_major_iterator’ from ‘class SCYTHE::col_major_iterator<T>’ [-fpermissive]
+In file included from MCMCdistn.cc:23:0:
+matrix.h:77:45: error: declaration of ‘typedef class SCYTHE::const_col_major_iterator<T> SCYTHE::Matrix<T>::const_col_major_iterator’ [-fpermissive]
+In file included from matrix.h:40:0,
+                 from MCMCdistn.cc:23:
+matrix_iterator.h:975:9: error: changes meaning of ‘const_col_major_iterator’ from ‘class SCYTHE::const_col_major_iterator<T>’ [-fpermissive]
+In file included from MCMCdistn.cc:23:0:
+matrix.h:79:7: error: declaration of ‘typedef class SCYTHE::reverse_row_major_iterator<T> SCYTHE::Matrix<T>::reverse_row_major_iterator’ [-fpermissive]
+In file included from matrix.h:40:0,
+                 from MCMCdistn.cc:23:
+matrix_iterator.h:1253:9: error: changes meaning of ‘reverse_row_major_iterator’ from ‘class SCYTHE::reverse_row_major_iterator<T>’ [-fpermissive]
+In file included from MCMCdistn.cc:23:0:
+matrix.h:81:7: error: declaration of ‘typedef class SCYTHE::const_reverse_row_major_iterator<T> SCYTHE::Matrix<T>::const_reverse_row_major_iterator’ [-fpermissive]
+In file included from matrix.h:40:0,
+                 from MCMCdistn.cc:23:
+matrix_iterator.h:1347:9: error: changes meaning of ‘const_reverse_row_major_iterator’ from ‘class SCYTHE::const_reverse_row_major_iterator<T>’ [-fpermissive]
+In file included from MCMCdistn.cc:23:0:
+matrix.h:83:7: error: declaration of ‘typedef class SCYTHE::reverse_col_major_iterator<T> SCYTHE::Matrix<T>::reverse_col_major_iterator’ [-fpermissive]
+In file included from matrix.h:40:0,
+                 from MCMCdistn.cc:23:
+matrix_iterator.h:1442:9: error: changes meaning of ‘reverse_col_major_iterator’ from ‘class SCYTHE::reverse_col_major_iterator<T>’ [-fpermissive]
+In file included from MCMCdistn.cc:23:0:
+matrix.h:85:7: error: declaration of ‘typedef class SCYTHE::const_reverse_col_major_iterator<T> SCYTHE::Matrix<T>::const_reverse_col_major_iterator’ [-fpermissive]
+In file included from matrix.h:40:0,
+                 from MCMCdistn.cc:23:
+matrix_iterator.h:1537:9: error: changes meaning of ‘const_reverse_col_major_iterator’ from ‘class SCYTHE::const_reverse_col_major_iterator<T>’ [-fpermissive]
+make: *** [MCMCdistn.o] Error 1
+ERROR: compilation failed for package ‘baymvb’
+* removing ‘/home/vagrant/lib/current/baymvb’

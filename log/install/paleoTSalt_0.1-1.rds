@@ -1,0 +1,3 @@
+* installing *source* package ‘paleoTSalt’ ...
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/paleoTSalt’

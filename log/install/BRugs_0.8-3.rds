@@ -1,0 +1,6 @@
+* installing *source* package ‘BRugs’ ...
+** package ‘BRugs’ successfully unpacked and MD5 sums checked
+checking for prefix by checking for OpenBUGS... no
+configure: error: OpenBUGS 3.2.2 or later not found. Install it, or specify its location using, for example, R CMD INSTALL BRugs --configure-args='--with-openbugs=/usr/local' 
+ERROR: configuration failed for package ‘BRugs’
+* removing ‘/home/vagrant/lib/current/BRugs’

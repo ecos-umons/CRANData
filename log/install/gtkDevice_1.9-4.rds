@@ -1,0 +1,6 @@
+* installing *source* package ‘gtkDevice’ ...
+checking for gtk-config... no
+checking for gtk12-config... no
+ERROR: Cannot find gtk-config.
+ERROR: configuration failed for package ‘gtkDevice’
+* removing ‘/home/vagrant/lib/current/gtkDevice’

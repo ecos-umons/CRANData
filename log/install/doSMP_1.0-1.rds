@@ -1,0 +1,2 @@
+ERROR: dependency ‘revoIPC’ is not available for package ‘doSMP’
+* removing ‘/home/vagrant/lib/current/doSMP’

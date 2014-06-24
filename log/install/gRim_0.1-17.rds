@@ -1,0 +1,2 @@
+ERROR: dependencies ‘gRbase’, ‘gRain’ are not available for package ‘gRim’
+* removing ‘/home/vagrant/lib/current/gRim’

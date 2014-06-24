@@ -1,0 +1,2 @@
+ERROR: dependency ‘gridGraphviz’ is not available for package ‘gridDebug’
+* removing ‘/home/vagrant/lib/current/gridDebug’

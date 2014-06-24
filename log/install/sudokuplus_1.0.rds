@@ -1,0 +1,2 @@
+ERROR: dependency ‘tkrplot’ is not available for package ‘sudokuplus’
+* removing ‘/home/vagrant/lib/current/sudokuplus’

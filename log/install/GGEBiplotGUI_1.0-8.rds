@@ -1,0 +1,2 @@
+ERROR: dependency ‘tkrplot’ is not available for package ‘GGEBiplotGUI’
+* removing ‘/home/vagrant/lib/current/GGEBiplotGUI’

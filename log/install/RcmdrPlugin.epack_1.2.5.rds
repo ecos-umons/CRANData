@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rcmdr’ is not available for package ‘RcmdrPlugin.epack’
+* removing ‘/home/vagrant/lib/current/RcmdrPlugin.epack’

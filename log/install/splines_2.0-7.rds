@@ -1,0 +1,11 @@
+* installing *source* package ‘splines’ ...
+Error : Invalid DESCRIPTION file
+
+Invalid package name.
+This is the name of a base package.
+
+See the information on DESCRIPTION files in section 'Creating R
+packages' of the 'Writing R Extensions' manual.
+
+ERROR: installing package DESCRIPTION failed for package ‘splines’
+* removing ‘/home/vagrant/lib/current/splines’

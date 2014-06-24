@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rcmdr’ is not available for package ‘RcmdrPlugin.KMggplot2’
+* removing ‘/home/vagrant/lib/current/RcmdrPlugin.KMggplot2’

@@ -1,0 +1,3 @@
+* installing *source* package ‘muS2RC’ ...
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/muS2RC’

@@ -1,0 +1,13 @@
+* installing *source* package ‘cudaBayesreg’ ...
+** package ‘cudaBayesreg’ successfully unpacked and MD5 sums checked
+** libs
+** arch - 
+( cd newmat11 ; make )
+make[1]: Entering directory `/cran/packages/cudaBayesreg/0.3-15/cudaBayesreg/src/newmat11'
+make[1]: `libnewmat.so' is up to date.
+make[1]: Leaving directory `/cran/packages/cudaBayesreg/0.3-15/cudaBayesreg/src/newmat11'
+/usr/local/cuda//bin/nvcc --compiler-options -fno-strict-aliasing --compiler-options -DNDEBUG=1 -O3 -Xcompiler "-fPIC" -Xlinker "-fPIC" -I/usr/local/cuda//include -I./newmat11 -I/usr/lib/R/include -c cudaMultireg.cu
+/bin/bash: /usr/local/cuda//bin/nvcc: No such file or directory
+make: *** [cudaMultireg.o] Error 127
+ERROR: compilation failed for package ‘cudaBayesreg’
+* removing ‘/home/vagrant/lib/current/cudaBayesreg’

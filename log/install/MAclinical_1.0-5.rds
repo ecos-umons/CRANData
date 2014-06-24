@@ -1,0 +1,2 @@
+ERROR: dependencies ‘party’, ‘st’ are not available for package ‘MAclinical’
+* removing ‘/home/vagrant/lib/current/MAclinical’

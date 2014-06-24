@@ -1,0 +1,3 @@
+* installing *source* package ‘glpk’ ...
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/glpk’

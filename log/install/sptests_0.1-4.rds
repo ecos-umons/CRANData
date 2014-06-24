@@ -1,0 +1,2 @@
+ERROR: dependency ‘spweights’ is not available for package ‘sptests’
+* removing ‘/home/vagrant/lib/current/sptests’

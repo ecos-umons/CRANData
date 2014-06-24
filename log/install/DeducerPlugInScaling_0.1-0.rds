@@ -1,0 +1,2 @@
+ERROR: dependency ‘Deducer’ is not available for package ‘DeducerPlugInScaling’
+* removing ‘/home/vagrant/lib/current/DeducerPlugInScaling’

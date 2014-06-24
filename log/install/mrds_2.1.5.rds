@@ -1,0 +1,10 @@
+* installing *source* package ‘mrds’ ...
+** package ‘mrds’ successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  namespace ‘optimx’ 2012.04.01 is being loaded, but >= 2013.8.6 is required
+ERROR: lazy loading failed for package ‘mrds’
+* removing ‘/home/vagrant/lib/current/mrds’

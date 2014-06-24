@@ -1,0 +1,2 @@
+ERROR: dependency ‘GOsummaries’ is not available for package ‘PubMedWordcloud’
+* removing ‘/home/vagrant/lib/current/PubMedWordcloud’

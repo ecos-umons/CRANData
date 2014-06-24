@@ -1,0 +1,2 @@
+ERROR: dependency ‘qdap’ is not available for package ‘NLPutils’
+* removing ‘/home/vagrant/lib/current/NLPutils’

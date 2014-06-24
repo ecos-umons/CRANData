@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rJava’, ‘JavaGD’ are not available for package ‘gMCP’
+* removing ‘/home/vagrant/lib/current/gMCP’

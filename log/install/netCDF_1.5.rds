@@ -1,0 +1,10 @@
+* installing *source* package ‘netCDF’ ...
+loading cache ./config.cache
+checking for ncopen in -lnetcdf... (cached) yes
+checking how to run the C preprocessor... (cached) cc -E
+checking for netcdf.h... (cached) yes
+creating ./config.status
+creating R/load.R
+creating src/Makevars
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/netCDF’

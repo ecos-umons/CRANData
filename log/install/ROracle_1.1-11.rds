@@ -1,0 +1,5 @@
+* installing *source* package ‘ROracle’ ...
+** package ‘ROracle’ successfully unpacked and MD5 sums checked
+configure: error: OCI libraries not found
+ERROR: configuration failed for package ‘ROracle’
+* removing ‘/home/vagrant/lib/current/ROracle’

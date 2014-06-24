@@ -1,0 +1,6 @@
+* installing *source* package ‘RSeqMeth’ ...
+** R
+** preparing package for lazy loading
+Error : unknown namespace directive: UseDynLib(RSeqMeth)
+ERROR: lazy loading failed for package ‘RSeqMeth’
+* removing ‘/home/vagrant/lib/current/RSeqMeth’

@@ -1,0 +1,2 @@
+ERROR: dependencies ‘limma’, ‘RBGL’, ‘graph’ are not available for package ‘SteinerNet’
+* removing ‘/home/vagrant/lib/current/SteinerNet’

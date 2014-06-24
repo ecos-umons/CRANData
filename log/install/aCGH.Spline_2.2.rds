@@ -1,0 +1,2 @@
+ERROR: dependency ‘rJava’ is not available for package ‘aCGH.Spline’
+* removing ‘/home/vagrant/lib/current/aCGH.Spline’

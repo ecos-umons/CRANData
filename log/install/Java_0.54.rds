@@ -1,0 +1,8 @@
+* installing *source* package ‘Java’ ...
+loading cache ./config.cache
+checking for java... no
+Cannot find Java. 
+Please set your path to include the directory in which the java executable resides,
+or set the environment variable JAVA_HOME before this configure script is run.
+ERROR: configuration failed for package ‘Java’
+* removing ‘/home/vagrant/lib/current/Java’

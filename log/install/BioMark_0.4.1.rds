@@ -1,0 +1,2 @@
+ERROR: dependency ‘st’ is not available for package ‘BioMark’
+* removing ‘/home/vagrant/lib/current/BioMark’

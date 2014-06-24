@@ -1,0 +1,2 @@
+ERROR: dependencies ‘RBGL’, ‘graph’ are not available for package ‘RSeed’
+* removing ‘/home/vagrant/lib/current/RSeed’

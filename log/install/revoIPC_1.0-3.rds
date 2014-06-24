@@ -1,0 +1,25 @@
+* installing *source* package ‘revoIPC’ ...
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for shm_open in -lrt... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+g++ -I/usr/share/R/include -DNDEBUG     -I . -fpic  -O2 -pipe -g  -c interface.cc -o interface.o
+In file included from ./boost/interprocess/detail/utilities.hpp:29:0,
+                 from ./boost/interprocess/mapped_region.hpp:20,
+                 from ./boost/interprocess/detail/managed_open_or_create_impl.hpp:17,
+                 from boost/interprocess/managed_mapped_file.hpp:20,
+                 from queue.h:17,
+                 from interface.cc:3:
+./boost/interprocess/detail/iterators.hpp:352:15: error: reference ‘m_value’ cannot be declared ‘mutable’ [-fpermissive]
+make: *** [interface.o] Error 1
+ERROR: compilation failed for package ‘revoIPC’
+* removing ‘/home/vagrant/lib/current/revoIPC’

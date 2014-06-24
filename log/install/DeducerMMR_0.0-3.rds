@@ -1,0 +1,2 @@
+ERROR: dependencies ‘Deducer’, ‘rJava’ are not available for package ‘DeducerMMR’
+* removing ‘/home/vagrant/lib/current/DeducerMMR’

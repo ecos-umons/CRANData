@@ -1,0 +1,2 @@
+ERROR: dependency ‘gRbase’ is not available for package ‘LogisticDx’
+* removing ‘/home/vagrant/lib/current/LogisticDx’

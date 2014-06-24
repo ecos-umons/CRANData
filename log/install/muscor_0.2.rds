@@ -1,0 +1,10 @@
+* installing *source* package ‘muscor’ ...
+** libs
+make: Nothing to be done for `all'.
+installing to /home/vagrant/lib/current/muscor/libs
+** R
+** data
+** preparing package for lazy loading
+Error : unknown namespace directive: UseDynLib(muscor)
+ERROR: lazy loading failed for package ‘muscor’
+* removing ‘/home/vagrant/lib/current/muscor’

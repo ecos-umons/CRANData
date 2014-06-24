@@ -1,0 +1,9 @@
+* installing *source* package ‘Rstreams’ ...
+loading cache ./config.cache
+checking for ftruncate... (cached) no
+checking size of long double... (cached) 0
+creating ./config.status
+creating src/config.h
+src/config.h is unchanged
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/Rstreams’

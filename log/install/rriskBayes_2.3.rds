@@ -1,0 +1,2 @@
+ERROR: dependencies ‘BRugs’, ‘tkrplot’ are not available for package ‘rriskBayes’
+* removing ‘/home/vagrant/lib/current/rriskBayes’

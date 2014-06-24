@@ -1,0 +1,9 @@
+* installing *source* package ‘SoPhy’ ...
+** package ‘SoPhy’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG      -fpic  -O2 -pipe -g  -c win_linux_aux.cc -o win_linux_aux.o
+win_linux_aux.cc:38:20: fatal error: tiffio.h: No such file or directory
+compilation terminated.
+make: *** [win_linux_aux.o] Error 1
+ERROR: compilation failed for package ‘SoPhy’
+* removing ‘/home/vagrant/lib/current/SoPhy’

@@ -1,0 +1,2 @@
+ERROR: dependencies ‘RWeka’, ‘rJava’ are not available for package ‘Snowball’
+* removing ‘/home/vagrant/lib/current/Snowball’

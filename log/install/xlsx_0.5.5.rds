@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rJava’, ‘xlsxjars’ are not available for package ‘xlsx’
+* removing ‘/home/vagrant/lib/current/xlsx’

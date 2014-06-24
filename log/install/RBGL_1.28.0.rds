@@ -1,0 +1,2 @@
+ERROR: dependency ‘graph’ is not available for package ‘RBGL’
+* removing ‘/home/vagrant/lib/current/RBGL’

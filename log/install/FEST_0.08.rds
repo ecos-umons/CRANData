@@ -1,0 +1,20 @@
+* installing *source* package ‘FEST’ ...
+** R
+** data
+** exec
+** inst
+** preparing package for lazy loading
+Creating a generic function for ‘print’ from package ‘base’ in package ‘FEST’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+Error : .onLoad failed in loadNamespace() for 'FEST', details:
+  call: NULL
+  error: '.find.package' is defunct.
+Use 'find.package' instead.
+See help("Defunct")
+Error: loading failed
+Execution halted
+ERROR: loading failed
+* removing ‘/home/vagrant/lib/current/FEST’

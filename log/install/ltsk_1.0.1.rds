@@ -1,0 +1,10 @@
+* installing *source* package ‘ltsk’ ...
+** package ‘ltsk’ successfully unpacked and MD5 sums checked
+** libs
+g++ -shared -Wl,-z,relro -o ltsk.so ANN.o bd_fix_rad_search.o bd_pr_search.o bd_search.o bd_tree.o brute.o cmp_kriging.o io.o kd_dump.o kd_fix_rad_search.o kd_pr_search.o kd_search.o kd_split.o kd_tree.o kd_util.o ltsk.o perf.o -llapack -lblas -lgfortran -lm -lquadmath -lRlapack -lRblas -lgfortran -L/usr/lib/R/lib -lR
+/usr/bin/ld: cannot find -lRlapack
+/usr/bin/ld: cannot find -lRblas
+collect2: error: ld returned 1 exit status
+make: *** [ltsk.so] Error 1
+ERROR: compilation failed for package ‘ltsk’
+* removing ‘/home/vagrant/lib/current/ltsk’

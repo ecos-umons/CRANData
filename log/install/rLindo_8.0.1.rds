@@ -1,0 +1,5 @@
+* installing *source* package ‘rLindo’ ...
+** package ‘rLindo’ successfully unpacked and MD5 sums checked
+configure: error: Please set environment variable LINDOAPI_HOME to your LINDO API installation path
+ERROR: configuration failed for package ‘rLindo’
+* removing ‘/home/vagrant/lib/current/rLindo’

@@ -1,0 +1,2 @@
+ERROR: dependencies ‘Rcmdr’, ‘tkrplot’ are not available for package ‘RcmdrPlugin.PT’
+* removing ‘/home/vagrant/lib/current/RcmdrPlugin.PT’

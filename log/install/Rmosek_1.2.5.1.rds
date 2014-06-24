@@ -1,0 +1,8 @@
+* installing *source* package ‘Rmosek’ ...
+file ‘src/compatibility/pkgMatrixVersion.h’ has the wrong MD5 checksum
+Configuring for a UNIX-alike platform (sub-architecture: "")
+Found package 'Matrix' version 1.1.3
+Found variable definitions in ./src/setup/Localsys.txt file
+*** Variable 'PKG_MOSEKHOME' is not a directory: "/data/gannet/ripley/Sources/mosek/6/tools/platform/linux64x86" ***
+ERROR: configuration failed for package ‘Rmosek’
+* removing ‘/home/vagrant/lib/current/Rmosek’

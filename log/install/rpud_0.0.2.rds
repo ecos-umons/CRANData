@@ -1,0 +1,6 @@
+* installing *source* package ‘rpud’ ...
+checking "environment variable CUDA_HOME"... "CUDA_HOME not set; using default /usr/local/cuda"
+checking for /usr/local/cuda/bin/nvcc... no
+configure: error: "cannot find nvcc; check CUDA install"
+ERROR: configuration failed for package ‘rpud’
+* removing ‘/home/vagrant/lib/current/rpud’

@@ -1,0 +1,3 @@
+* installing *source* package ‘fuzzyOP’ ...
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/fuzzyOP’

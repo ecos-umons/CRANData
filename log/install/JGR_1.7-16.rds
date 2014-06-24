@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rJava’, ‘JavaGD’, ‘iplots’ are not available for package ‘JGR’
+* removing ‘/home/vagrant/lib/current/JGR’

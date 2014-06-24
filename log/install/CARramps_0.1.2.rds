@@ -1,0 +1,17 @@
+* installing *source* package ‘CARramps’ ...
+** package ‘CARramps’ successfully unpacked and MD5 sums checked
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+setting CUDA home directory to /usr/local/cuda
+setting CUDA library home directory to /usr/lib64/nvidia-current
+checking for /usr/local/cuda/bin/nvcc... no
+configure: error: nvcc not found!
+ERROR: configuration failed for package ‘CARramps’
+* removing ‘/home/vagrant/lib/current/CARramps’

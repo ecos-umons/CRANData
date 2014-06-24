@@ -1,0 +1,3 @@
+* installing *source* package ‘scope’ ...
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/scope’

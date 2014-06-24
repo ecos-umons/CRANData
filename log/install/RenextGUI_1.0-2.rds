@@ -1,0 +1,2 @@
+ERROR: dependency ‘gWidgetstcltk’ is not available for package ‘RenextGUI’
+* removing ‘/home/vagrant/lib/current/RenextGUI’

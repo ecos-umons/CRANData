@@ -1,0 +1,2 @@
+ERROR: dependency ‘limma’ is not available for package ‘metaMA’
+* removing ‘/home/vagrant/lib/current/metaMA’

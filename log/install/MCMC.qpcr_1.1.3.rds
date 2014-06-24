@@ -1,0 +1,2 @@
+ERROR: dependency ‘MCMCglmm’ is not available for package ‘MCMC.qpcr’
+* removing ‘/home/vagrant/lib/current/MCMC.qpcr’

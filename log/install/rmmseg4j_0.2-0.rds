@@ -1,0 +1,2 @@
+ERROR: dependency ‘rJava’ is not available for package ‘rmmseg4j’
+* removing ‘/home/vagrant/lib/current/rmmseg4j’

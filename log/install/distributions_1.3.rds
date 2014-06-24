@@ -1,0 +1,7 @@
+* installing *source* package ‘distributions’ ...
+** R
+** inst
+** preparing package for lazy loading
+Error : unknown namespace directive: .onUnload(.path.packages(pkgname))
+ERROR: lazy loading failed for package ‘distributions’
+* removing ‘/home/vagrant/lib/current/distributions’

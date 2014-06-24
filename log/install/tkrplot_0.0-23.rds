@@ -1,0 +1,11 @@
+* installing *source* package ‘tkrplot’ ...
+** package ‘tkrplot’ successfully unpacked and MD5 sums checked
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include/tcl8.5 -I/usr/include/tcl8.5     -fpic  -O2 -pipe -g  -c tcltkimg.c -o tcltkimg.o
+tcltkimg.c:2:16: fatal error: tk.h: No such file or directory
+compilation terminated.
+make: *** [tcltkimg.o] Error 1
+ERROR: compilation failed for package ‘tkrplot’
+* removing ‘/home/vagrant/lib/current/tkrplot’

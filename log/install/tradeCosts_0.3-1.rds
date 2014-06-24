@@ -1,0 +1,8 @@
+* installing *source* package ‘tradeCosts’ ...
+** R
+** data
+** inst
+** preparing package for lazy loading
+Error : unknown namespace directive: exportData("trade.mar.2007", "dynamic.mar.2007", "static.mar.2007")
+ERROR: lazy loading failed for package ‘tradeCosts’
+* removing ‘/home/vagrant/lib/current/tradeCosts’

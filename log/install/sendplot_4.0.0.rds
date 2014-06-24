@@ -1,0 +1,2 @@
+ERROR: dependency ‘rtiff’ is not available for package ‘sendplot’
+* removing ‘/home/vagrant/lib/current/sendplot’

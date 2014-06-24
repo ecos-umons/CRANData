@@ -1,0 +1,10 @@
+* installing *source* package ‘PermuteNGS’ ...
+** libs
+make: Nothing to be done for `all'.
+installing to /home/vagrant/lib/current/PermuteNGS/libs
+** R
+** data
+** preparing package for lazy loading
+Error : unknown namespace directive: imports("qvalue")
+ERROR: lazy loading failed for package ‘PermuteNGS’
+* removing ‘/home/vagrant/lib/current/PermuteNGS’

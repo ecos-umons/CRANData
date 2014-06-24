@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rgraphviz’ is not available for package ‘hpoPlot’
+* removing ‘/home/vagrant/lib/current/hpoPlot’

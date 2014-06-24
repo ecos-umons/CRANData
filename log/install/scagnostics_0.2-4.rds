@@ -1,0 +1,2 @@
+ERROR: dependency ‘rJava’ is not available for package ‘scagnostics’
+* removing ‘/home/vagrant/lib/current/scagnostics’

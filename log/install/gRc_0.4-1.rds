@@ -1,0 +1,2 @@
+ERROR: dependencies ‘gRbase’, ‘graph’, ‘Rgraphviz’ are not available for package ‘gRc’
+* removing ‘/home/vagrant/lib/current/gRc’

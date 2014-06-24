@@ -1,0 +1,2 @@
+ERROR: dependency ‘ROracle’ is not available for package ‘ROracleUI’
+* removing ‘/home/vagrant/lib/current/ROracleUI’

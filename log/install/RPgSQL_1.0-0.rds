@@ -1,0 +1,13 @@
+* installing *source* package ‘RPgSQL’ ...
+loading cache ./config.cache
+checking for PQconnectdb in -lpq... (cached) yes
+checking how to run the C preprocessor... (cached) cc -E
+checking for /usr/include/libpq-fe.h... (cached) no
+checking how to run the C preprocessor... cc -E
+checking for /usr/include/pgsql/libpq-fe.h... (cached) no
+checking how to run the C preprocessor... cc -E
+checking for /usr/include/postgresql/libpq-fe.h... (cached) yes
+creating ./config.status
+creating src/Makevars
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/RPgSQL’

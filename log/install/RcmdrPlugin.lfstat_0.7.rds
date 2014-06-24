@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rcmdr’ is not available for package ‘RcmdrPlugin.lfstat’
+* removing ‘/home/vagrant/lib/current/RcmdrPlugin.lfstat’

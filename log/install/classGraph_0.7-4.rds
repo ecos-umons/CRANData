@@ -1,0 +1,2 @@
+ERROR: dependencies ‘graph’, ‘Rgraphviz’ are not available for package ‘classGraph’
+* removing ‘/home/vagrant/lib/current/classGraph’

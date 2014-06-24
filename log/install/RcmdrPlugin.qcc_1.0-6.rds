@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rcmdr’ is not available for package ‘RcmdrPlugin.qcc’
+* removing ‘/home/vagrant/lib/current/RcmdrPlugin.qcc’

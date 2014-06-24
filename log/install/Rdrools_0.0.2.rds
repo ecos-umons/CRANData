@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rJava’, ‘Rdroolsjars’ are not available for package ‘Rdrools’
+* removing ‘/home/vagrant/lib/current/Rdrools’

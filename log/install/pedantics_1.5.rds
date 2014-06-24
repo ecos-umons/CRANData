@@ -1,0 +1,2 @@
+ERROR: dependency ‘MCMCglmm’ is not available for package ‘pedantics’
+* removing ‘/home/vagrant/lib/current/pedantics’

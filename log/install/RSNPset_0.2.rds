@@ -1,0 +1,13 @@
+* installing *source* package ‘RSNPset’ ...
+** package ‘RSNPset’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/vagrant/lib/current/Rcpp/include" -I"/home/vagrant/lib/current/RcppEigen/include"   -fpic  -O2 -pipe -g  -c rsnpset.cpp -o rsnpset.o
+g++ -shared -Wl,-z,relro -o RSNPset.so rsnpset.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/lib/R/lib -lR
+installing to /home/vagrant/lib/current/RSNPset/libs
+** R
+** inst
+** preparing package for lazy loading
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  namespace ‘qvalue’ 1.26.0 is being loaded, but >= 1.34 is required
+ERROR: lazy loading failed for package ‘RSNPset’
+* removing ‘/home/vagrant/lib/current/RSNPset’

@@ -1,0 +1,3 @@
+* installing *source* package ‘log10’ ...
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/log10’

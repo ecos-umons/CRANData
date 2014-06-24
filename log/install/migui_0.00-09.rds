@@ -1,0 +1,2 @@
+ERROR: dependency ‘tkrplot’ is not available for package ‘migui’
+* removing ‘/home/vagrant/lib/current/migui’

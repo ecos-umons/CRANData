@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rJava’, ‘rJython’ are not available for package ‘edeR’
+* removing ‘/home/vagrant/lib/current/edeR’

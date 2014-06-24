@@ -1,0 +1,2 @@
+ERROR: dependency ‘shapes’ is not available for package ‘latentnetHRT’
+* removing ‘/home/vagrant/lib/current/latentnetHRT’

@@ -1,0 +1,2 @@
+ERROR: dependencies ‘gRbase’, ‘graph’ are not available for package ‘gRain’
+* removing ‘/home/vagrant/lib/current/gRain’

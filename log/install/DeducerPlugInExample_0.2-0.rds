@@ -1,0 +1,2 @@
+ERROR: dependency ‘Deducer’ is not available for package ‘DeducerPlugInExample’
+* removing ‘/home/vagrant/lib/current/DeducerPlugInExample’

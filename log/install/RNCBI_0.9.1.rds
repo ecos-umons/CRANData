@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rJava’, ‘RNCBIEUtilsLibs’, ‘RNCBIAxis2Libs’ are not available for package ‘RNCBI’
+* removing ‘/home/vagrant/lib/current/RNCBI’

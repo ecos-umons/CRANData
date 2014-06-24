@@ -1,0 +1,2 @@
+ERROR: dependencies ‘BCA’, ‘Rcmdr’ are not available for package ‘RcmdrPlugin.BCA’
+* removing ‘/home/vagrant/lib/current/RcmdrPlugin.BCA’

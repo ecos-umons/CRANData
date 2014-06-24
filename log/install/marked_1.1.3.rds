@@ -1,0 +1,14 @@
+* installing *source* package ‘marked’ ...
+** package ‘marked’ successfully unpacked and MD5 sums checked
+** libs
+make: Nothing to be done for `all'.
+installing to /home/vagrant/lib/current/marked/libs
+** R
+** data
+** demo
+** inst
+** preparing package for lazy loading
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  namespace ‘optimx’ 2012.04.01 is being loaded, but >= 2013.8.6 is required
+ERROR: lazy loading failed for package ‘marked’
+* removing ‘/home/vagrant/lib/current/marked’

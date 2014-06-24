@@ -1,0 +1,17 @@
+* installing *source* package ‘mpc’ ...
+** package ‘mpc’ successfully unpacked and MD5 sums checked
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for __gmpz_init in -lgmp... yes
+checking for mpfr_init in -lmpfr... yes
+checking for mpc_init2 in -lmpc... no
+configure: error: MPC Library not found, see README
+ERROR: configuration failed for package ‘mpc’
+* removing ‘/home/vagrant/lib/current/mpc’

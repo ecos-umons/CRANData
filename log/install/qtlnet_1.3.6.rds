@@ -1,0 +1,2 @@
+ERROR: dependencies ‘graph’, ‘pcalg’ are not available for package ‘qtlnet’
+* removing ‘/home/vagrant/lib/current/qtlnet’

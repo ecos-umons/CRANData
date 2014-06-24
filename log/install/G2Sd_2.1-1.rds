@@ -1,0 +1,2 @@
+ERROR: dependencies ‘xlsx’, ‘rJava’, ‘xlsxjars’ are not available for package ‘G2Sd’
+* removing ‘/home/vagrant/lib/current/G2Sd’

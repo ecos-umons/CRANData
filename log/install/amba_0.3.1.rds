@@ -1,0 +1,4 @@
+* installing *source* package ‘amba’ ...
+** package ‘amba’ successfully unpacked and MD5 sums checked
+ERROR: a 'NAMESPACE' file is required
+* removing ‘/home/vagrant/lib/current/amba’

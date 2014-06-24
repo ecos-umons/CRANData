@@ -1,0 +1,10 @@
+* installing *source* package ‘RmSQL’ ...
+loading cache ./config.cache
+checking how to run the C preprocessor... cc -E
+checking for /msql.h... no
+checking for /usr/local/Hughes/include/msql.h... no
+Cannot find msql.h. Set the value of the environment variable
+    LIBMSQL_DIR
+to point to where it can be found.
+ERROR: configuration failed for package ‘RmSQL’
+* removing ‘/home/vagrant/lib/current/RmSQL’

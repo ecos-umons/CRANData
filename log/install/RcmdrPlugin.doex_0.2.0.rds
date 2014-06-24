@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rcmdr’ is not available for package ‘RcmdrPlugin.doex’
+* removing ‘/home/vagrant/lib/current/RcmdrPlugin.doex’

@@ -1,0 +1,10 @@
+* installing *source* package ‘resper’ ...
+** R
+** inst
+** preparing package for lazy loading
+** help
+Warning: /cran/packages/resper/0.3.2/resper/man/ResperByrow.Rd:82: unexpected VERBATIM TEXT '+t+.
+', expecting '{'
+Error : /cran/packages/resper/0.3.2/resper/man/ResperByrow.Rd:8-16: 'encoding' must be plain text
+ERROR: installing Rd objects failed for package ‘resper’
+* removing ‘/home/vagrant/lib/current/resper’

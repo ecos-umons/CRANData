@@ -1,0 +1,2 @@
+ERROR: dependency ‘pcalg’ is not available for package ‘qdg’
+* removing ‘/home/vagrant/lib/current/qdg’

@@ -1,0 +1,7 @@
+* installing *source* package ‘EffectiveDose’ ...
+** R
+** inst
+** preparing package for lazy loading
+Error : unknown namespace directive: importClasses("locfit")
+ERROR: lazy loading failed for package ‘EffectiveDose’
+* removing ‘/home/vagrant/lib/current/EffectiveDose’

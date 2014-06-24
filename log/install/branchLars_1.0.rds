@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rgraphviz’ is not available for package ‘branchLars’
+* removing ‘/home/vagrant/lib/current/branchLars’

@@ -1,0 +1,5 @@
+* installing *source* package ‘cmprskContin’ ...
+ This package has only been tested with gfortran and must be installed on a 64-bit Linux system. 
+Stop! The current version of this package can only be installed on 64-bit Linux.
+ERROR: configuration failed for package ‘cmprskContin’
+* removing ‘/home/vagrant/lib/current/cmprskContin’

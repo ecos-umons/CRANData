@@ -1,0 +1,2 @@
+ERROR: dependency ‘shapes’ is not available for package ‘symbolicDA’
+* removing ‘/home/vagrant/lib/current/symbolicDA’

@@ -1,0 +1,11 @@
+* installing *source* package ‘CatDyn’ ...
+** package ‘CatDyn’ successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  namespace ‘optimx’ 2012.04.01 is being loaded, but >= 2013.8.6 is required
+ERROR: lazy loading failed for package ‘CatDyn’
+* removing ‘/home/vagrant/lib/current/CatDyn’
