@@ -1,3 +1,5 @@
+library(extractoR.utils)
+
 packages <- readRDS("rds/packages.rds")
 packages$filename <- apply(packages, 1, function(x) {
   sprintf("%s_%s.rds", x[1], x[2])
