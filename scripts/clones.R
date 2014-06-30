@@ -26,4 +26,4 @@ res$package <- factor(res$package)
 res$version <- factor(res$version)
 res$hash <- factor(res$hash)
 
-## saveRDS(res, "clones.rds")
+saveRDS(res, "clones.rds")
