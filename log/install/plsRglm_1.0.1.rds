@@ -1,0 +1,2 @@
+ERROR: dependency ‘bipartite’ is not available for package ‘plsRglm’
+* removing ‘/home/vagrant/lib/current/plsRglm’

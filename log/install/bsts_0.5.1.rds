@@ -1,0 +1,2 @@
+ERROR: dependencies ‘BoomSpikeSlab’, ‘Boom’ are not available for package ‘bsts’
+* removing ‘/home/vagrant/lib/current/bsts’

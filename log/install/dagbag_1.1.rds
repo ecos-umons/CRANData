@@ -1,0 +1,14 @@
+* installing *source* package ‘dagbag’ ...
+** package ‘dagbag’ successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include     -fpic  -O2 -pipe -g  -c BIC_comp_dposv.c -o BIC_comp_dposv.o
+BIC_comp_dposv.c: In function ‘score_gshd’:
+BIC_comp_dposv.c:1813:37: warning: passing argument 4 of ‘qsort’ from incompatible pointer type [enabled by default]
+In file included from BIC_comp_dposv.c:1:0:
+/usr/include/stdlib.h:761:13: note: expected ‘__compar_fn_t’ but argument is of type ‘int (*)(const struct gshdm *, const struct gshdm *)’
+gcc -std=gnu99 -shared -Wl,-z,relro -o dagbag.so BIC_comp_dposv.o -L/usr/lib/R/lib -lRlapack -L/usr/lib/R/lib -lR
+/usr/bin/ld: cannot find -lRlapack
+collect2: error: ld returned 1 exit status
+make: *** [dagbag.so] Error 1
+ERROR: compilation failed for package ‘dagbag’
+* removing ‘/home/vagrant/lib/current/dagbag’

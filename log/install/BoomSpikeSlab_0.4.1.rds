@@ -1,0 +1,2 @@
+ERROR: dependency ‘Boom’ is not available for package ‘BoomSpikeSlab’
+* removing ‘/home/vagrant/lib/current/BoomSpikeSlab’
