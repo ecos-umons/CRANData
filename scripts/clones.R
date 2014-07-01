@@ -1,3 +1,4 @@
+library(hash)
 library(extractoR.utils)
 
 packages <- readRDS("rds/packages.rds")
