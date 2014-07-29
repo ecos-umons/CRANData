@@ -1,0 +1,8 @@
+* installing *source* package ‘BatchExperiments’ ...
+** package ‘BatchExperiments’ successfully unpacked and MD5 sums checked
+** R
+** byte-compile and prepare package for lazy loading
+Error : package ‘BatchJobs’ 1.2 was found, but >= 1.3 is required by ‘BatchExperiments’
+ERROR: lazy loading failed for package ‘BatchExperiments’
+* removing ‘/home/vagrant/lib/current/BatchExperiments’
+* restoring previous ‘/home/vagrant/lib/current/BatchExperiments’

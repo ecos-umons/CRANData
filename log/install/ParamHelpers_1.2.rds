@@ -1,0 +1,14 @@
+* installing *source* package ‘ParamHelpers’ ...
+** package ‘ParamHelpers’ successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O2 -pipe -g  -c c_dfRowsToList.c -o c_dfRowsToList.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O2 -pipe -g  -c c_generateDesign.c -o c_generateDesign.o
+gcc -std=gnu99 -shared -Wl,-z,relro -o ParamHelpers.so c_dfRowsToList.o c_generateDesign.o -L/usr/lib/R/lib -lR
+installing to /home/vagrant/lib/current/ParamHelpers/libs
+** R
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  namespace ‘checkmate’ 1.0 is already loaded, but >= 1.1 is required
+ERROR: lazy loading failed for package ‘ParamHelpers’
+* removing ‘/home/vagrant/lib/current/ParamHelpers’
+* restoring previous ‘/home/vagrant/lib/current/ParamHelpers’

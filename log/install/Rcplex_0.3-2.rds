@@ -1,0 +1,7 @@
+* installing *source* package ‘Rcplex’ ...
+** package ‘Rcplex’ successfully unpacked and MD5 sums checked
+checking for cplex... no
+Trying to use . as CPLEX installation location
+configure: error: CPLEX include directory ./include does not exist
+ERROR: configuration failed for package ‘Rcplex’
+* removing ‘/home/vagrant/lib/current/Rcplex’

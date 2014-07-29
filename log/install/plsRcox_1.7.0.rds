@@ -1,0 +1,2 @@
+ERROR: dependencies ‘plsRglm’, ‘survcomp’ are not available for package ‘plsRcox’
+* removing ‘/home/vagrant/lib/current/plsRcox’

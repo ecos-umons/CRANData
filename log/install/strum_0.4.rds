@@ -1,0 +1,2 @@
+ERROR: dependency ‘Rgraphviz’ is not available for package ‘strum’
+* removing ‘/home/vagrant/lib/current/strum’

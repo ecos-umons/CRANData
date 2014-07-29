@@ -1,0 +1,2 @@
+ERROR: dependency ‘rJava’ is not available for package ‘SBRect’
+* removing ‘/home/vagrant/lib/current/SBRect’

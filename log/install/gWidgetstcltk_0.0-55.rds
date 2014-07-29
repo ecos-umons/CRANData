@@ -1,0 +1,2 @@
+ERROR: failed to lock directory ‘/home/vagrant/lib/current’ for modifying
+Try removing ‘/home/vagrant/lib/current/00LOCK-gWidgetstcltk’

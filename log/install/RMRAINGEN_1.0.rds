@@ -1,0 +1,2 @@
+ERROR: dependencies ‘RGENERATE’, ‘RMAWGEN’ are not available for package ‘RMRAINGEN’
+* removing ‘/home/vagrant/lib/current/RMRAINGEN’

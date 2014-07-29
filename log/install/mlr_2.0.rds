@@ -1,0 +1,15 @@
+* installing *source* package ‘mlr’ ...
+** package ‘mlr’ successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -O2 -pipe -g  -c smote.c -o smote.o
+gcc -std=gnu99 -shared -Wl,-z,relro -o mlr.so smote.o -L/usr/lib/R/lib -lR
+installing to /home/vagrant/lib/current/mlr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Error : package ‘ParamHelpers’ 1.1-36 was found, but >= 1.2 is required by ‘mlr’
+ERROR: lazy loading failed for package ‘mlr’
+* removing ‘/home/vagrant/lib/current/mlr’
+* restoring previous ‘/home/vagrant/lib/current/mlr’
