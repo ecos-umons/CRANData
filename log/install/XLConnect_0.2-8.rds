@@ -1,0 +1,2 @@
+ERROR: dependencies ‘XLConnectJars’, ‘rJava’ are not available for package ‘XLConnect’
+* removing ‘/home/vagrant/lib/current/XLConnect’
