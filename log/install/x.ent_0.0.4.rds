@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rJava’, ‘venneuler’ are not available for package ‘x.ent’
+* removing ‘/home/vagrant/lib/current/x.ent’

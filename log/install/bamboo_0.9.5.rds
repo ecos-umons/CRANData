@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rJava’, ‘jvmr’ are not available for package ‘bamboo’
+* removing ‘/home/vagrant/lib/current/bamboo’
