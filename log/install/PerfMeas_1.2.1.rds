@@ -1,0 +1,2 @@
+ERROR: dependencies ‘limma’, ‘graph’, ‘RBGL’ are not available for package ‘PerfMeas’
+* removing ‘/home/vagrant/lib/current/PerfMeas’

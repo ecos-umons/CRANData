@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rJava’, ‘JavaGD’ are not available for package ‘Crossover’
+* removing ‘/home/vagrant/lib/current/Crossover’

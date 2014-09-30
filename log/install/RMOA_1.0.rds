@@ -1,0 +1,2 @@
+ERROR: dependencies ‘RMOAjars’, ‘rJava’ are not available for package ‘RMOA’
+* removing ‘/home/vagrant/lib/current/RMOA’

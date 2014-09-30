@@ -1,0 +1,2 @@
+ERROR: dependency ‘vars’ is not available for package ‘tsDyn’
+* removing ‘/home/vagrant/lib/current/tsDyn’

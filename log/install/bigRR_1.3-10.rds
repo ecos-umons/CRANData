@@ -1,0 +1,13 @@
+* installing *source* package ‘bigRR’ ...
+** package ‘bigRR’ successfully unpacked and MD5 sums checked
+** R
+** data
+** inst
+** preparing package for lazy loading
+Error : .onAttach failed in attachNamespace() for 'DatABEL', details:
+  call: if (pkgVersion != cranVersion) {
+  error: argument is of length zero
+Error : package ‘DatABEL’ could not be loaded
+ERROR: lazy loading failed for package ‘bigRR’
+* removing ‘/home/vagrant/lib/current/bigRR’
+* restoring previous ‘/home/vagrant/lib/current/bigRR’

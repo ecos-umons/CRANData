@@ -1,0 +1,2 @@
+ERROR: dependency ‘neldermead’ is not available for package ‘classyfire’
+* removing ‘/home/vagrant/lib/current/classyfire’

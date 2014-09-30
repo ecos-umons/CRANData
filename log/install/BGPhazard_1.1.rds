@@ -1,0 +1,2 @@
+ERROR: this R is version 3.1.0, package 'BGPhazard' requires R >= 3.1.1
+* removing ‘/home/vagrant/lib/current/BGPhazard’

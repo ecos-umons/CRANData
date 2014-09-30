@@ -1,0 +1,11 @@
+* installing *source* package ‘FeedbackTS’ ...
+** package ‘FeedbackTS’ successfully unpacked and MD5 sums checked
+** R
+** data
+** preparing package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘RandomFields’
+Error : package ‘geoR’ could not be loaded
+ERROR: lazy loading failed for package ‘FeedbackTS’
+* removing ‘/home/vagrant/lib/current/FeedbackTS’
+* restoring previous ‘/home/vagrant/lib/current/FeedbackTS’

@@ -1,0 +1,2 @@
+ERROR: dependency ‘strucchange’ is not available for package ‘bfast’
+* removing ‘/home/vagrant/lib/current/bfast’

@@ -1,0 +1,2 @@
+ERROR: dependencies ‘rJava’, ‘rcdklibs’ are not available for package ‘rcdk’
+* removing ‘/home/vagrant/lib/current/rcdk’
