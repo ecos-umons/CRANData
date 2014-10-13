@@ -1,0 +1,2 @@
+ERROR: dependency ‘limma’ is not available for package ‘SQDA’
+* removing ‘/home/vagrant/lib/current/SQDA’

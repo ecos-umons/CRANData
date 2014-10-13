@@ -1,0 +1,2 @@
+ERROR: dependency ‘tiff’ is not available for package ‘measuRing’
+* removing ‘/home/vagrant/lib/current/measuRing’

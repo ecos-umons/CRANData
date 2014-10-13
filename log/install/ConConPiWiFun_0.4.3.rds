@@ -1,0 +1,9 @@
+* installing *source* package ‘ConConPiWiFun’ ...
+** package ‘ConConPiWiFun’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG --stdlib=libstdc++ -I../inst/include/  -I"/home/vagrant/lib/current/Rcpp/include"   -fpic  -O2 -pipe -g  -c Modules.cc -o Modules.o
+g++: error: unrecognized command line option ‘--stdlib=libstdc++’
+make: *** [Modules.o] Error 1
+ERROR: compilation failed for package ‘ConConPiWiFun’
+* removing ‘/home/vagrant/lib/current/ConConPiWiFun’
+* restoring previous ‘/home/vagrant/lib/current/ConConPiWiFun’

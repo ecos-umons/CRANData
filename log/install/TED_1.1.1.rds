@@ -1,0 +1,10 @@
+* installing *source* package ‘TED’ ...
+** package ‘TED’ successfully unpacked and MD5 sums checked
+** R
+** data
+** preparing package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘RandomFields’
+ERROR: lazy loading failed for package ‘TED’
+* removing ‘/home/vagrant/lib/current/TED’
+* restoring previous ‘/home/vagrant/lib/current/TED’
